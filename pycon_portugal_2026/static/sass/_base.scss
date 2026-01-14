@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #1F2B37;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.inner-body {
+  min-height: 68vh;
+  background-color: #1F2B37;
+}
+
+////////////////////////////////
+//Variables//
+////////////////////////////////
+$bgBlueGray: #1F2B37;
+$Green: #77F1A1;
+$DarkBlue: #1F2B37;
+$LightBlue: #5076F6;
+$WhiteGray: #F9F9F9;
+
+$bgPurple: #0a042c;
+$purple: #9747ff;
+$lightPurple: #ff00ff;
+
+$bgWhite: #fff;
+$BgBlue: #0077c9;
+$BgBlack: #2c2c2c;
+$BgYellow: #f9a825;
+$BgDarkBlue: #1b215d;
+$BgLightBlue: #d0b0f5;
+$BgGreen: #468f1f;
+$BgLightGreen: #00969c80;
+$BgLightPurple: #d0b0f5;
+$HomeHeaderLinks: #0580ec;
+
+// Alert colors
+
+$white: #f7f7f7;
+$mint-green: #d6e9c6;
+$black: #000;
+$pink: #f2dede;
+$dark-pink: #eed3d7;
+$gray: #8d8d8d;
+$lightgray: #b2b2b2;
+$red: #b94a48;
+
+////////////////////////////////
+//Alerts//
+////////////////////////////////
+
+// bootstrap alert CSS, translated to the django-standard levels of
+// debug, info, success, warning, error
+
+a {
+  color: $Green;
+}
+
+a:hover {
+  color: $Green;
+  filter: brightness(80%);
+}
+
+.alert-debug {
+  background-color: $white;
+  border-color: $mint-green;
+  color: $black;
+}
+
+.alert-error {
+  background-color: $pink;
+  border-color: $dark-pink;
+  color: $red;
+}
+
+h2 {
+  padding: 0;
+  color: $WhiteGray;
+  font-family: Share Tech;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+h3 {
+  padding: 0;
+  color: $WhiteGray;
+  font-family: Share Tech;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h4 {
+  padding: 0;
+  color: $WhiteGray;
+  font-family: Share Tech;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+p,
+li {
+  color: $WhiteGray;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p.small-text {
+  font-size: 0.8em;
+}
+
+.simple-content {
+  ul {
+    padding-left: 1em;
+  }
+
+  li {
+    list-style-type: disc;
+  }
+}
+
+.blue-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: $LightBlue;
+}
+
+.green-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: $Green;
+}
+
+.align-items-baseline {
+  align-items: baseline;
+}
+
+@media(max-width: 992px) {
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media(max-width: 768px) {
+  h2 {
+    font-size: 50px;
+  }
+  p,
+  li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sponsorhip-title {
+    font-size: 55px;
+    text-align: center;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background-color: $DarkBlue;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background-color: $WhiteGray;
+  border-radius: 8px;
+}
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: $Green;
+}
+
+/* Scrollbar Width */
+::-webkit-scrollbar {
+  width: 8px;
+}

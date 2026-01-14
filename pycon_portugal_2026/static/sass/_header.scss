@@ -1,0 +1,106 @@
+// header
+
+@use "base";
+
+
+.header {
+  background-color: base.$bgBlueGray;
+
+  .navbar-brand {
+    img {
+      max-width: 80px;
+    }
+  }
+
+  .navbar-toggler {
+    .icon-2 {
+      display: none;
+    }
+
+    i {
+      color: base.$Green;
+      font-size: 42px;
+      transition: ease-in-out 0.3s;
+
+      &:hover {
+        filter: brightness(80%);
+      }
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .navbar-nav {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  @media (max-width: 992px) {
+
+    .navbar-nav {
+      justify-content: flex-start !important;
+      align-items: flex-start !important;
+    }
+  }
+
+  ul {
+    padding: 0.7rem;
+
+    a,
+    a:hover {
+      color: #FFF;
+
+      &.dropdown-item {
+        color: white;
+
+        &:hover {
+          background-color: white !important;
+          color: base.$bgBlueGray !important;
+        }
+
+        a {
+          font-size: 42px;
+        }
+      }
+    }
+
+
+    .nav-link::after {
+      display: none;
+    }
+
+    .nav-link {
+      font-family: "Share Tech";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration: none;
+    }
+
+    @media (max-width: 992px) {
+      .nav-link {
+        text-align: left;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .dropdown-menu {
+    background: base.$bgBlueGray;
+    border: 1px solid #f7f7f7;
+
+    a {
+      font-family: "Share Tech";
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .header .dropdown-menu {
+    border: unset;
+  }
+}

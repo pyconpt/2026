@@ -1,0 +1,1588 @@
+// homepage
+
+@use "base";
+
+/*#region HomeHero*/
+.home-hero {
+  margin-top: 100px;
+  background-color: base.$bgBlueGray;
+
+
+  .button-wrapper, .button-wrapper-mobile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .col-12 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .hero-button {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transform-origin: left center;
+    font-family: "Share Tech";
+    border: 0;
+    cursor: default;
+  }
+
+  .blue {
+    background: #5076F6;
+    color: #1F2B37;
+    text-align: center;
+    font-size: 152px;
+    font-weight: 400;
+    transform: rotate(-2.639deg);
+    z-index: 10;
+    line-height: normal;
+    width: 70%;
+    margin-left: 200px;
+  }
+
+  .green {
+    background: #77F1A1;
+    color: #000;
+    text-align: center;
+    font-size: 104px;
+    line-height: 88px;
+    font-weight: 400;
+    transform: rotate(-10.44deg);
+    position: absolute;
+    right: 0;
+    top: 40px;
+    padding: 10px 0 10px 0;
+    z-index: 100;
+    margin-top: 80px;
+    margin-right: 150px;
+  }
+
+  .white {
+    background: white;
+    color: #1F2B37;
+    text-align: center;
+    font-size: 152px;
+    font-weight: 400;
+    transform: rotate(3.283deg);
+    margin-top: -35px;
+    margin-left: 80px;
+    line-height: normal;
+    z-index: 0;
+    width: 90%;
+  }
+
+  .button-1 {
+    transform: rotate(-2.639deg);
+    color: base.$DarkBlue;
+    background: base.$LightBlue;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 20px 10px 20px;
+    z-index: 1;
+  }
+
+  .button-2 {
+    transform: rotate(3.283deg);
+    color: base.$DarkBlue;
+    background: base.$WhiteGray;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 50px 10px 50px;
+    margin-left: -20px;
+    margin-top: -15px;
+    z-index: 10;
+  }
+
+  .button-3 {
+    transform: rotate(-0.767deg);
+    color: base.$LightBlue;
+    background: base.$Green;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 70px 10px 70px;
+    margin-top: 10px;
+    z-index: 1;
+  }
+
+  .button-4 {
+    transform: rotate(-5.44deg);
+    background: base.$LightBlue;
+    color: base.$WhiteGray;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    padding: 10px 50px 10px 50px;
+    z-index: 10;
+  }
+
+  @media(max-width: 1400px) {
+    .blue {
+      font-size: 100px;
+    }
+    .green {
+      font-size: 65px;
+      margin-top: 30px;
+    }
+    .white {
+      font-size: 100px;
+    }
+  }
+  @media(max-width: 1200px) {
+    .blue {
+      font-size: 80px;
+    }
+    .green {
+      font-size: 55px;
+      margin-top: 10px;
+      margin-right: 40px;
+    }
+    .white {
+      font-size: 80px;
+      margin-top: -20px;
+    }
+  }
+
+  @media(max-width: 992px) {
+    .button-wrapper {
+      display: none;
+    }
+    .button-wrapper-mobile {
+      display: block !important;
+    }
+  }
+  @media(max-width: 500px) {
+    .button-1 {
+      font-size: 38px;
+    }
+    .button-2 {
+      font-size: 40px;
+    }
+    .button-3 {
+      font-size: 40px;
+      padding: 10px 50px 10px 50px;
+    }
+    .button-4 {
+      font-size: 35px;
+    }
+  }
+}
+
+/*#endregion HomeHero*/
+/*#region HomeHeroSubsection*/
+.home-hero-subsection {
+  margin-top: 160px;
+  font-family: "Share Tech";
+
+  .info-mobile {
+    display: none;
+  }
+
+  .info-mobile-2 {
+    display: none;
+  }
+
+  .left {
+    margin-top: 40px;
+    padding: 0;
+
+    .ticket {
+      justify-content: end;
+      padding-right: 100px;
+      display: flex;
+
+      p {
+        color: base.$DarkBlue;
+        font-family: "Share Tech";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 10px 20px 10px 0;
+      }
+
+      background: base.$Green;
+    }
+
+    .filler {
+      background: base.$Green;
+
+      img {
+        width: 90%;
+      }
+    }
+
+    .button-wrapper {
+      position: absolute;
+      margin-top: -20%;
+
+      .button-1 {
+        position: absolute;
+        cursor: default;
+        border: 0;
+        transform: rotate(-9.274deg);
+        background: #5076F6;
+        color: #000;
+        text-align: center;
+        font-family: "Share Tech";
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 88px;
+        margin-left: 210px;
+        padding: 0 50px 0 50px;
+        z-index: 10;
+      }
+
+      .button-2 {
+        position: absolute;
+        cursor: default;
+        border: 0;
+        background: #F9F9F9;
+        transform: rotate(-2.725deg);
+        color: #5076F6;
+        text-align: center;
+        font-family: "Share Tech";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+        padding: 0 100px 0 100px;
+        margin-left: 320px;
+        margin-top: 80px;
+        z-index: 1;
+      }
+
+      .button-3 {
+        position: absolute;
+        cursor: default;
+        border: 0;
+        background: #1F2B37;
+        transform: rotate(5.584deg);
+        color: #F9F9F9;
+        text-align: center;
+        font-family: "Share Tech";
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 80px;
+        padding: 0 50px 0 50px;
+        margin-left: 370px;
+        margin-top: 145px;
+        z-index: 0;
+      }
+    }
+  }
+
+  .right {
+    padding-right: 100px;
+
+
+    .location {
+      color: #F9F9F9;
+      text-align: right;
+      font-family: "Share Tech";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .date {
+      color: #5076F6;
+      text-align: right;
+      font-family: "Share Tech";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .xaxa-text {
+      margin: 50px 0 0 100px;
+      color: base.$Green;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  @media(max-width: 1400px) {
+    .button-wrapper {
+      .button-1 {
+        font-size: 65px !important;
+        line-height: 65px !important;
+        margin-left: 200px !important;
+      }
+
+      .button-2 {
+        font-size: 50px !important;
+        line-height: 50px !important;
+        margin-left: 250px !important;
+        margin-top: 60px !important;
+      }
+
+      .button-3 {
+        font-size: 65px !important;
+        line-height: 65px !important;
+        margin-left: 270px !important;
+        margin-top: 110px !important;
+
+      }
+    }
+  }
+  @media(max-width: 1200px) {
+    .button-wrapper {
+      .button-1 {
+        font-size: 50px !important;
+        padding: 0 50px 0 50px !important;
+      }
+
+      .button-2 {
+        font-size: 40px !important;
+        padding: 0 80px 0 80px !important;
+      }
+
+      .button-3 {
+        font-size: 50px !important;
+        padding: 0 50px 0 50px !important;
+
+      }
+    }
+  }
+  @media(max-width: 992px) {
+    margin-top: 100px;
+    .left {
+      .ticket {
+        padding: 0;
+        justify-content: center;
+
+        p {
+          font-size: 36px;
+
+        }
+
+      }
+    }
+    .right {
+      padding: 0;
+
+      .date {
+        text-align: center;
+        font-size: 36px;
+      }
+
+      .location {
+        text-align: center;
+        font-size: 36px;
+
+      }
+    }
+    .info-mobile {
+      display: block;
+    }
+    .info-mobile-2 {
+      display: block;
+
+      .xaxa-text {
+        margin: 100px 0 0 0;
+        justify-content: center;
+        display: flex;
+        font-size: 24px;
+      }
+    }
+    .info-desktop {
+      display: none;
+    }
+    .button-wrapper {
+      margin-top: -40% !important;
+      margin-left: 20% !important;
+
+      .button-1 {
+        font-size: 50px !important;
+        padding: 0 50px 0 50px !important;
+      }
+
+      .button-2 {
+        font-size: 40px !important;
+        padding: 0 80px 0 80px !important;
+      }
+
+      .button-3 {
+        font-size: 50px !important;
+        padding: 0 50px 0 50px !important;
+
+      }
+    }
+  }
+  @media(max-width: 768px) {
+    .button-wrapper {
+      margin-left: 10% !important;
+
+      .button-1 {
+        font-size: 40px !important;
+        padding: 0 80px 0 80px !important;
+      }
+
+      .button-2 {
+        font-size: 35px !important;
+        padding: 0 120px 0 120px !important;
+      }
+
+      .button-3 {
+        font-size: 40px !important;
+        padding: 0 80px 0 80px !important;
+
+      }
+    }
+  }
+
+  @media(max-width: 600px) {
+    .button-wrapper {
+      margin-left: -5% !important;
+
+      .button-1 {
+        font-size: 30px !important;
+        padding: 0 50px 0 50px !important;
+        line-height: 50px !important;
+      }
+
+      .button-2 {
+        font-size: 30px !important;
+        padding: 0 80px 0 80px !important;
+        margin-top: 35px !important;
+        line-height: 50px !important;
+      }
+
+      .button-3 {
+        font-size: 30px !important;
+        padding: 0 50px 0 50px !important;
+        line-height: 50px !important;
+        margin-top: 80px !important;
+      }
+    }
+  }
+  @media(max-width: 500px) {
+    .left {
+      .ticket {
+        p {
+          font-size: 28px;
+        }
+      }
+    }
+    .info-mobile-2 {
+      .xaxa-text {
+        font-size: 20px;
+      }
+    }
+    .button-wrapper {
+      margin-left: -15% !important;
+      margin-top: -50% !important;
+
+      .button-1 {
+        font-size: 30px !important;
+        padding: 0 50px 0 50px !important;
+      }
+
+      .button-2 {
+        font-size: 30px !important;
+        padding: 0 80px 0 80px !important;
+      }
+
+      .button-3 {
+        font-size: 30px !important;
+        padding: 0 50px 0 50px !important;
+
+      }
+    }
+  }
+  @media(max-width: 400px) {
+    .button-wrapper {
+      margin-left: -30% !important;
+    }
+  }
+  @media(max-width: 370px) {
+    .info-mobile-2 {
+      .xaxa-text {
+        font-size: 16px;
+      }
+    }
+    .button-wrapper {
+      margin-left: -35% !important;
+
+      .button-1 {
+        font-size: 25px !important;
+        padding: 0 40px 0 40px !important;
+        line-height: 40px !important;
+      }
+
+      .button-2 {
+        font-size: 25px !important;
+        padding: 0 70px 0 70px !important;
+        line-height: 40px !important;
+      }
+
+      .button-3 {
+        font-size: 25px !important;
+        padding: 0 40px 0 40px !important;
+        line-height: 40px !important;
+      }
+    }
+  }
+
+}
+
+/*#endregion HomeHeroSubsection*/
+/*#region HomeTickets */
+.home-tickets {
+  margin-top: 100px;
+
+  .tickets-section-title {
+    transform: rotate(2.233deg);
+    background: base.$WhiteGray;
+    border: 0;
+    color: #1F2B37;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    padding: 10px 80px 10px 80px;
+    cursor: default;
+    margin-top: 100px;
+  }
+
+  .ticket-card-width {
+    max-width: 475px;
+  }
+
+  .ticket-card-green {
+    border: 2px solid base.$Green;
+  }
+
+  .ticket-card-white {
+    border: 2px solid base.$WhiteGray;
+
+  }
+
+  .ticket-card-blue {
+    border: 2px solid base.$LightBlue;
+
+  }
+
+  .card-green {
+    color: base.$Green;
+  }
+
+  .card-white {
+    color: base.$WhiteGray;
+  }
+
+  .card-blue {
+    color: base.$LightBlue;
+  }
+
+  h4 {
+    font-family: "Share Tech";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+  }
+
+  .detail {
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-left: -100px;
+    margin-bottom: 0;
+  }
+
+  .detail-green {
+    margin-left: -90px;
+  }
+
+  .detail-white {
+    margin-left: -140px;
+  }
+
+  .detail-blue {
+    margin-left: -110px;
+  }
+
+
+  .price {
+    font-family: Nunito;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .description {
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 80px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .row > * {
+    padding-bottom: 2rem !important;
+  }
+
+  .tickets-call-to-action {
+    a {
+      color: #1F2B37;
+    }
+
+    position: absolute;
+    left: 24%;
+    top: 87%;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    transform: rotate(2.233deg);
+    flex-shrink: 0;
+    border: 0;
+  }
+
+  .call-to-action-green {
+    background: base.$Green;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .call-to-action-green:hover {
+    filter: brightness(90%);
+  }
+
+  .call-to-action-white {
+    background: base.$WhiteGray;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .call-to-action-white:hover {
+
+    filter: brightness(90%);
+  }
+
+  .call-to-action-blue {
+    background: base.$LightBlue;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .call-to-action-blue:hover {
+
+    filter: brightness(90%);
+  }
+
+  @media(max-width: 1200px) {
+    .tickets-call-to-action {
+      font-size: 30px;
+    }
+  }
+  @media(max-width: 992px) {
+    .tickets-section-title {
+      font-size: 60px;
+    }
+
+  }
+  @media(max-width: 768px) {
+    .tickets-call-to-action {
+      left: 31%;
+      font-size: 28px;
+    }
+    .tickets-section-title {
+      font-size: 48px;
+      line-height: 48px;;
+      padding: 10px 60px 10px 60px;
+    }
+    h4 {
+      font-size: 36px;
+    }
+    .description {
+      font-size: 20px;
+    }
+  }
+  @media(max-width: 500px) {
+    .tickets-call-to-action {
+      font-size: 25px;
+      left: 30%;
+    }
+    .tickets-section-title {
+      font-size: 40px;
+      line-height: 40px;;
+      padding: 10px 60px 10px 60px;
+    }
+  }
+  @media(max-width: 400px) {
+    .tickets-call-to-action {
+      left: 28%;
+    }
+  }
+
+  @media(max-width: 375px) {
+    .tickets-call-to-action {
+      left: 27%;
+      font-size: 24px;
+    }
+  }
+}
+
+
+/*#endregion HomeTickets*/
+/*#region HomePreviousEditions */
+.home-previous-editions {
+  .button-1 {
+    background: base.$WhiteGray;
+    transform: rotate(-3.163deg);
+    color: base.$LightBlue;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    border: 0;
+    cursor: default !important;
+    padding: 10px 50px 10px 50px;
+    z-index: 1;
+    margin-top: 150px;
+  }
+
+  .button-2 {
+    background: base.$Green;
+    transform: rotate(0.688deg);
+    color: base.$DarkBlue;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    margin-left: -350px;
+    margin-top: -10px;
+    border: 0;
+    cursor: default !important;
+    padding: 10px 20px 10px 20px;
+    z-index: 100;
+  }
+
+  .button-3 {
+    background: base.$LightBlue;
+    transform: rotate(-5.183deg);
+    color: base.$Green;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 110% */
+    margin-left: 450px;
+    margin-top: -80px;
+    margin-bottom: 100px;
+    border: 0;
+    cursor: default !important;
+    padding: 10px 80px 10px 80px;
+    z-index: 10;
+
+  }
+
+  .editions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 100px;
+  }
+
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .grid-item.small {
+    grid-column: span 1;
+    aspect-ratio: 1/1;
+  }
+
+  @media(max-width: 1024px) {
+    .button-1 {
+      font-size: 55px;
+      line-height: 55px;
+    }
+    .button-2 {
+      font-size: 55px;
+      line-height: 55px;
+      margin-left: -10px;
+    }
+    .button-3 {
+      font-size: 55px;
+      line-height: 55px;
+      margin-top: -5px;
+      margin-left: 100px;
+    }
+  }
+  @media (max-width: 992px) {
+    .editions-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-item.small {
+      grid-column: span 1;
+      max-width: 326px;
+      height: 288px;
+      margin: 0 auto;
+    }
+    .button-1 {
+      font-size: 48px;
+      line-height: 48px;
+    }
+    .button-2 {
+      font-size: 48px;
+      line-height: 48px;
+      margin-left: -10px;
+    }
+    .button-3 {
+      font-size: 48px;
+      line-height: 48px;
+      margin-top: -5px;
+      margin-left: 150px;
+    }
+  }
+  @media(max-width: 500px) {
+    .button-1 {
+      font-size: 40px;
+      line-height: 40px;
+      margin-top: 0;
+    }
+    .button-2 {
+      font-size: 40px;
+      line-height: 40px;
+      margin-left: -10px;
+    }
+    .button-3 {
+      font-size: 40px;
+      line-height: 40px;
+      margin-top: -5px;
+      margin-left: 100px;
+      padding: 10px 50px 10px 50px;
+    }
+  }
+  @media(max-width: 400px) {
+    .button-1 {
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .button-2 {
+      font-size: 25px;
+      line-height: 30px;
+      margin-left: -10px;
+    }
+    .button-3 {
+      font-size: 30px;
+      line-height: 30px;
+      margin-top: -5px;
+      margin-left: 50px;
+    }
+  }
+}
+
+/*endregion HomePreviousEditions */
+/*#region Speakers */
+.home-speakers {
+  a {
+    text-decoration: none;
+  }
+
+  .title-wrapper {
+    margin-bottom: 100px;
+    margin-top: 200px;
+  }
+
+  .speakers-title-1 {
+    cursor: default;
+    z-index: 2;
+    border: 0;
+    transform: rotate(2.233deg);
+    flex-shrink: 0;
+    color: base.$WhiteGray;
+    background: base.$Green;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+  }
+
+  .speakers-title-2 {
+    cursor: default;
+    z-index: 1;
+    border: 0;
+    margin-top: 10px;
+    transform: rotate(-3.07deg);
+    flex-shrink: 0;
+    background: base.$WhiteGray;
+    color: base.$Green;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+  }
+
+  .speaker-name {
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .speaker-function {
+    margin-left: -60px;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
+    width: 120px;
+    height: 30px;
+    position: absolute;
+  }
+
+  .keynote {
+    color: base.$LightBlue;
+  }
+
+  .talk {
+    color: base.$Green;
+  }
+
+  .workshop {
+    color: base.$WhiteGray;
+  }
+
+  .keynote-button {
+    background: base.$LightBlue;
+    color: base.$Green;
+  }
+
+  .talk-button {
+    background: base.$Green;
+    color: base.$DarkBlue;
+  }
+
+  .workshop-button {
+    background: base.$WhiteGray;
+    color: base.$LightBlue;
+  }
+
+  .carousel-item {
+    text-align: center;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .carousel-caption {
+    position: static;
+    margin-top: 10px;
+    color: #000;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
+
+  .carousel-control-prev {
+    margin-left: -50px;
+  }
+
+  .carousel-control-next {
+    margin-right: -50px;
+  }
+
+  @media(max-width: 992px) {
+    #speakersCarousel {
+      display: none;
+    }
+    #speakersCarousel_mobile {
+      display: block !important;
+    }
+    .carousel-control-prev {
+      margin-left: 0;
+    }
+
+    .carousel-control-next {
+      margin-right: 0;
+    }
+  }
+  @media(max-width: 768px) {
+    .speakers-title-1 {
+      font-size: 48px;
+      line-height: 48px;
+      padding: 10px 20px 10px 20px;
+
+    }
+    .speakers-title-2 {
+      font-size: 48px;
+      line-height: 48px;
+      padding: 10px 20px 10px 20px;
+      margin-left: -10px;
+    }
+    .speaker-name {
+      font-size: 20px;
+    }
+    .title-wrapper {
+      margin-top: 100px;
+    }
+  }
+  @media(max-width: 500px) {
+    .speakers-title-1 {
+      font-size: 32px;
+      line-height: 32px;
+      padding: 10px 20px 10px 20px;
+
+    }
+    .speakers-title-2 {
+      font-size: 32px;
+      line-height: 32px;
+      padding: 10px 20px 10px 20px;
+      margin-left: -10px;
+    }
+  }
+}
+
+/*#endregion Speakers */
+/*region HomeImportantDates */
+.home-important-dates {
+  .button-1 {
+    background: base.$WhiteGray;
+    color: base.$LightBlue;
+    transform: rotate(2.233deg);
+    border: 0;
+    cursor: default;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 110% */
+    margin-left: -250px;
+    margin-top: 100px;
+    padding: 5px 30px 5px 30px;
+    z-index: 10;
+  }
+
+  .button-2 {
+    background: base.$LightBlue;
+    color: base.$WhiteGray;
+    transform: rotate(-3.07deg);
+    border: 0;
+    cursor: default;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 110% */
+    margin-left: 350px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    padding: 5px 30px 5px 30px;
+    z-index: 1;
+  }
+
+  img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    opacity: 0.7;
+  }
+
+  .button {
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+    border: 0;
+    cursor: default !important;
+    padding: 10px 20px 10px 20px;
+    width: 200px;
+  }
+
+  //background: base.$Green;
+  //color: base.$LightBlue;
+  //color: base.$Green;
+
+  .text {
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -20px;
+    margin-bottom: 100px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .color-green {
+    color: base.$Green;
+  }
+
+  .color-blue {
+    color: base.$LightBlue;
+  }
+
+  .color-white {
+    color: base.$WhiteGray;
+  }
+
+  .color-dark-blue {
+    color: base.$DarkBlue;
+  }
+
+  .background-green {
+    background: base.$Green;
+  }
+
+  .background-blue {
+    background: base.$LightBlue;
+  }
+
+  .background-white {
+    background: base.$WhiteGray;
+  }
+
+  .important-date-link {
+    text-decoration: unset;
+  }
+
+  @media(max-width: 992px) {
+    img {
+      display: none;
+    }
+    .col-12 {
+      display: flex;
+      justify-content: center;
+
+      p {
+        text-align: center;
+        font-size: 20px;
+      }
+    }
+    .button-1 {
+      font-size: 48px;
+      line-height: 48px;
+      margin: 0 0 0 -90px;
+    }
+    .button-2 {
+      font-size: 48px;
+      line-height: 48px;
+      margin: 0 -150px 100px 0;
+    }
+  }
+  @media(max-width: 500px) {
+    .button-1 {
+      font-size: 40px;
+      line-height: 40px;
+      margin: 0 0 0 -90px;
+    }
+    .button-2 {
+      font-size: 40px;
+      line-height: 40px;
+      margin: 0 -150px 100px 0;
+    }
+  }
+  @media(max-width: 400px) {
+    .button-1 {
+      font-size: 30px;
+      line-height: 30px;
+      margin: 0 0 0 -90px;
+    }
+    .button-2 {
+      font-size: 30px;
+      line-height: 30px;
+      margin: 0 -150px 100px 0;
+    }
+  }
+}
+
+/*endregion HomeImportantDates */
+/*#region Sponsors */
+.home-sponsors {
+  margin-bottom: 200px;
+
+  .sponsors-title {
+    border: 0;
+    color: base.$WhiteGray;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    background: base.$LightBlue;
+    transform: rotate(2.233deg);
+    margin-top: 100px;
+    cursor: default !important;
+  }
+
+  .diamond {
+    border: 0;
+    cursor: default;
+    color: base.$LightBlue;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: base.$Green;
+    padding: 10px 0 10px 0;
+    width: 170px;
+    margin: 100px 0 80px 0;
+  }
+
+  .platinum {
+    border: 0;
+    cursor: default;
+    color: base.$LightBlue;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: base.$WhiteGray;
+    padding: 10px 0 10px 0;
+    width: 170px;
+    margin: 80px 0 80px 0;
+  }
+
+  .silver {
+    border: 0;
+    cursor: default;
+    color: base.$DarkBlue;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: base.$WhiteGray;
+    padding: 10px 0 10px 0;
+    width: 170px;
+    margin: 80px 0 80px 0;
+  }
+
+  .grants {
+    border: 0;
+    cursor: default;
+    color: base.$Green;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: base.$LightBlue;
+    padding: 10px 0 10px 0;
+    width: 170px;
+    margin: 80px 0 80px 0;
+  }
+
+  .organizer {
+    border: 0;
+    cursor: default;
+    color: base.$DarkBlue;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: base.$Green;
+    padding: 10px 0 10px 0;
+    width: 170px;
+    margin: 80px 0 80px 0;
+  }
+
+  img {
+    margin: 0 30px 0 30px;
+  }
+
+  @media(max-width: 992px) {
+    .sponsors-title {
+      font-size: 60px;
+      line-height: 66px;
+    }
+  }
+  @media(max-width: 500px) {
+    .mobile-sponsor-images {
+      img {
+        margin-bottom: 50px;
+      }
+
+      display: grid !important;
+      text-align: center;
+    }
+  }
+}
+
+/*#endregion Sponsors */
+/*#region HomeFreeTickets */
+.home-free-tickets {
+  margin-top: 100px;
+  margin-bottom: 150px;
+
+  .free-tickets-width {
+    max-width: 475px;
+  }
+
+  .free-tickets-section-title-1 {
+    margin-left: -100px;
+    transform: rotate(-2.517deg);
+    background: base.$LightBlue;
+    border: 0;
+    color: base.$Green;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    cursor: default;
+  }
+
+
+  .free-tickets-section-title-2 {
+    margin-top: -30px;
+    margin-left: 300px;
+    transform: rotate(1.444deg);
+    background: base.$Green;
+    border: 0;
+    color: base.$LightBlue;
+    text-align: center;
+    font-family: "Share Tech";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    cursor: default;
+  }
+
+
+  .ticket-card-green {
+    border: 2px solid base.$Green;
+  }
+
+  .ticket-card-white {
+    border: 2px solid base.$WhiteGray;
+
+  }
+
+  .ticket-card-blue {
+    border: 2px solid base.$LightBlue;
+
+  }
+
+  .card-green {
+    color: base.$Green;
+  }
+
+  .card-white {
+    color: base.$WhiteGray;
+  }
+
+  .card-blue {
+    color: base.$LightBlue;
+  }
+
+  h4 {
+    font-family: "Share Tech";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+  }
+
+  .description {
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 80px;
+    text-align: left;
+    padding: 0 10px 0 10px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .row > * {
+    padding-bottom: 2rem !important;
+  }
+
+  .tickets-call-to-action {
+    a {
+      color: #1F2B37;
+    }
+
+    margin-left: -100px;
+    text-align: center;
+    position: absolute;
+    margin-top: -5px;
+    font-family: "Share Tech";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    transform: rotate(2.233deg);
+    flex-shrink: 0;
+    width: 200px;
+    border: 0;
+  }
+
+  .call-to-action-green {
+    background: base.$Green;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .call-to-action-green:hover {
+
+    filter: brightness(90%);
+  }
+
+  .call-to-action-white {
+    background: base.$WhiteGray;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .call-to-action-white:hover {
+
+    filter: brightness(90%);
+  }
+
+  .call-to-action-blue {
+    background: base.$LightBlue;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .call-to-action-blue:hover {
+
+    filter: brightness(90%);
+  }
+
+  @media(max-width: 992px) {
+    .free-tickets-section-title-1 {
+      font-size: 60px;
+      line-height: 66px;
+    }
+    .free-tickets-section-title-2 {
+      font-size: 60px;
+      line-height: 66px;
+      margin-left: 200px;
+    }
+
+  }
+  @media(max-width: 768px) {
+    .free-tickets-section-title-1 {
+      font-size: 40px;
+      line-height: 44px;
+    }
+    .free-tickets-section-title-2 {
+      font-size: 40px;
+      line-height: 44px;
+    }
+    .tickets-call-to-action {
+      font-size: 24px;
+      line-height: 50px;
+      margin-top: -10px;
+    }
+    .description {
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 36px;
+    }
+  }
+
+  @media(max-width: 600px) {
+    .free-tickets-section-title-2 {
+      margin-left: 100px;
+    }
+  }
+  @media(max-width: 423px) {
+    .free-tickets-section-title-2 {
+      margin-left: 30px;
+    }
+  }
+  @media(max-width: 400px) {
+    .free-tickets-section-title-1 {
+      margin-left: -10px;
+    }
+    .free-tickets-section-title-2 {
+      font-size: 30px;
+    }
+  }
+}
+
+/*#endregion HomeFreeTickets*/
+

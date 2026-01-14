@@ -1,0 +1,139 @@
+//footer
+
+@use "base";
+
+.custom-footer {
+  background-color: base.$LightBlue;
+  color: #FDFDFD;
+  position: relative;
+  padding-top: 8vh;
+  @media(max-width: 990px) {
+    .footer-media {
+      margin: 20px 0 20px 0;
+    }
+  }
+  @media (max-width: 768px) {
+    padding-bottom: 5vh !important;
+  }
+
+  .footer-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .footer-title {
+    padding-left: 50px;
+    color: base.$Green;
+    font-family: "Share Tech";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  @media(max-width: 768px) {
+    .footer-title {
+      font-size: 36px;
+    }
+  }
+
+  a {
+    color: base.$WhiteGray;
+  }
+
+  .p {
+    color: base.$WhiteGray;
+  }
+
+  .footer-social-media-link {
+    padding: .25rem;
+  }
+
+  .footer-end {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    p {
+      @media (min-width: 768px) {
+        width: auto;
+      }
+      font-family: Nunito;
+      font-size: 16px;
+      font-weight: 800;
+
+      margin: .125rem;
+      padding: 0rem;
+    }
+
+  }
+
+  .footer-links {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .nav-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0.5em;
+      background-color: base.$Green;
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+    }
+  }
+
+  .footer-social-media-link {
+    display: contents;
+    width: auto;
+  }
+
+  .footer-site-map {
+    padding-top: 3.1875rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .custom-footer {
+
+    .footer-social-media-link {
+      .nav-link {
+        width: available;
+        padding: .5rem 2.5%;
+      }
+    }
+
+    .footer-site-map {
+      margin-left: 1rem;
+      margin-right: 1rem;
+
+      .footer-title {
+        padding-top: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .custom-footer {
+    text-align: center !important;
+
+    .footer-container {
+      padding-left: .75rem;
+      padding-right: .75rem;
+    }
+
+    .social-media-title {
+      padding: 0;
+      text-align: center;
+    }
+
+    .footer-links {
+      text-align: center;
+      align-self: center;
+      align-content: center;
+      justify-content: center !important;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.envs/.production/
+.pytest_cache/
+.ipython/
+vendors.js
+*.min.js
+.env

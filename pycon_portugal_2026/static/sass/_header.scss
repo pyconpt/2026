@@ -4,7 +4,7 @@
 
 
 .header {
-  background-color: base.$bgBlueGray;
+  background-color: base.$purple;
 
   .navbar-brand {
     img {
@@ -47,17 +47,19 @@
 
   ul {
     padding: 0.7rem;
-
+    li {
+        font-size: 16px;
+      }
     a,
     a:hover {
-      color: #FFF;
-
+      color: $Green;
+        text-transform: uppercase;
       &.dropdown-item {
-        color: white;
+        color: $Green ;
 
         &:hover {
-          background-color: white !important;
-          color: base.$bgBlueGray !important;
+          background-color: $Green;
+            color: $purple;
         }
 
         a {
@@ -72,8 +74,7 @@
     }
 
     .nav-link {
-      font-family: "Share Tech";
-      font-size: 20px;
+      font-size: 16px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -90,12 +91,8 @@
   }
 
   .dropdown-menu {
-    background: base.$bgBlueGray;
+    background: base.$purple;
     border: 1px solid #f7f7f7;
-
-    a {
-      font-family: "Share Tech";
-    }
   }
 }
 

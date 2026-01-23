@@ -3,10 +3,10 @@
 @use "base";
 
 .custom-footer {
-  background-color: base.$LightBlue;
-  color: #FDFDFD;
+  background-color: base.$DarkPurple;
+  color: base.$LightPurple;
   position: relative;
-  padding-top: 8vh;
+  padding-top: 6vh;
   @media(max-width: 990px) {
     .footer-media {
       margin: 20px 0 20px 0;
@@ -23,8 +23,8 @@
 
   .footer-title {
     padding-left: 50px;
-    color: base.$Green;
-    font-family: "Share Tech";
+    color: base.$LightPurple;
+    font-family: "Anton", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
@@ -37,8 +37,8 @@
     }
   }
 
-  a {
-    color: base.$WhiteGray;
+  a, a:hover {
+    color: base.$LightPurple;
   }
 
   .p {
@@ -50,15 +50,21 @@
   }
 
   .footer-end {
+    color: base.$LightPurple;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
     p {
+      color: base.$LightPurple;
+      span.heart {
+        color: red;
+      }
       @media (min-width: 768px) {
         width: auto;
       }
-      font-family: Nunito;
-      font-size: 16px;
+      font-family: "Red Hat Display",
+      sans-serif;
+      font-size: 12px;
       font-weight: 800;
 
       margin: .125rem;
@@ -76,7 +82,7 @@
       justify-content: center;
       align-items: center;
       margin: 0.5em;
-      background-color: base.$Green;
+      background-color: base.$LightPurple;
       width: 65px;
       height: 65px;
       border-radius: 50%;

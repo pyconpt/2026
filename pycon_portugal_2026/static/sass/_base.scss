@@ -1,27 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
-html,
-body {
-  overflow-x: hidden;
-  background-color: #1F2B37;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-.inner-body {
-  min-height: 68vh;
-  background-color: #1F2B37;
-}
 
 ////////////////////////////////
 //Variables//
 ////////////////////////////////
-$bgBlueGray: #1F2B37;
-$Green: #77F1A1;
-$DarkBlue: #1F2B37;
+$purple: #8711F6;
+$DarkPurple: #40027B;
+$LightPurple: #B97FF8;
+$Orange: #FF8C64;
+
+$Green: #CAFE41;
+$DarkBlue: $purple;
 $LightBlue: #5076F6;
 $WhiteGray: #F9F9F9;
 
@@ -29,7 +18,7 @@ $bgPurple: #0a042c;
 $purple: #9747ff;
 $lightPurple: #ff00ff;
 
-$bgWhite: #fff;
+$bgWhite: #FEFEFC;
 $BgBlue: #0077c9;
 $BgBlack: #2c2c2c;
 $BgYellow: #f9a825;
@@ -42,7 +31,7 @@ $HomeHeaderLinks: #0580ec;
 
 // Alert colors
 
-$white: #f7f7f7;
+$white: #FEFEFC;
 $mint-green: #d6e9c6;
 $black: #000;
 $pink: #f2dede;
@@ -58,6 +47,23 @@ $red: #b94a48;
 // bootstrap alert CSS, translated to the django-standard levels of
 // debug, info, success, warning, error
 
+html,
+body {
+  overflow-x: hidden;
+  background-color: $purple;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.inner-body {
+  min-height: 68vh;
+  background-color: $purple;
+}
+p {
+  font-size: 1.5rem;
+}
 a {
   color: $Green;
 }
@@ -78,43 +84,96 @@ a:hover {
   border-color: $dark-pink;
   color: $red;
 }
-
+.orange-text {
+  color: $Orange;
+  h2 {
+    color: $Orange;
+  }
+}
+.purple-text {
+  color: $purple!important;
+  p {
+      color: $purple!important;
+  }
+  a {
+    color: $purple!important;
+  }
+  h3 {
+    color: $purple!important;
+  }
+}
+.green-text {
+  color: $Green;
+  a {
+    color: $Green;
+  }
+  p {
+    color: $Green;
+  }
+}
+.bg-orange {
+  background-color: $Orange;
+}
+.bg-white {
+  background-color: $bgWhite;
+}
+.bg-purple {
+  background-color: $purple;
+}
+.bg-light-purple {
+  background-color: $BgLightPurple;
+}
+.bg-green {
+  background-color: $Green;
+}
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.75rem;
+  padding: 0.25rem 1.5rem;
+  border-radius: 24px;
+  border: none;
+}
 h2 {
   padding: 0;
-  color: $WhiteGray;
-  font-family: Share Tech;
-  font-size: 70px;
-  font-weight: 400;
+  color: $Green;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 h3 {
   padding: 0;
-  color: $WhiteGray;
-  font-family: Share Tech;
+  color: $Green;
   font-size: 40px;
   font-weight: 400;
 }
 
 h4 {
   padding: 0;
-  color: $WhiteGray;
-  font-family: Share Tech;
+  color: $Green;
   font-size: 36px;
   font-weight: 400;
 }
 
 p,
 li {
-  color: $WhiteGray;
-  font-family: Nunito;
-  font-size: 20px;
+  color: $Orange;
+  font-size: 1.5rem;
   font-weight: 400;
 }
-
+.ptb-10 {
+  padding: 5rem 10rem!important;
+}
+.width-100 {
+  width: 100%;
+}
 p.small-text {
   font-size: 0.8em;
 }
-
+.subtitle-size {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
 .simple-content {
   ul {
     padding-left: 1em;
@@ -139,6 +198,9 @@ p.small-text {
 
 .align-items-baseline {
   align-items: baseline;
+}
+.justify-self-center{
+  justify-self: center;
 }
 
 @media(max-width: 992px) {
@@ -165,7 +227,7 @@ p.small-text {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: $DarkBlue;
+  background-color: $purple;
 }
 
 /* Scrollbar Handle */

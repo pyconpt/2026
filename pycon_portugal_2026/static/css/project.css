@@ -1,13 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 .alert-debug {
   background-color: #fff;
   border-color: #d6e9c6;
@@ -23,30 +18,35 @@
 html,
 body {
   overflow-x: hidden;
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .inner-body {
   min-height: 68vh;
-  background-color: #1F2B37;
+  background-color: #9747ff;
+}
+
+p {
+  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 a {
-  color: #77F1A1;
+  color: #CAFE41;
 }
 
 a:hover {
-  color: #77F1A1;
+  color: #CAFE41;
   -webkit-filter: brightness(80%);
           filter: brightness(80%);
 }
 
 .alert-debug {
-  background-color: #f7f7f7;
+  background-color: #FEFEFC;
   border-color: #d6e9c6;
   color: #000;
 }
@@ -57,40 +57,114 @@ a:hover {
   color: #b94a48;
 }
 
+.orange-text {
+  color: #FF8C64;
+}
+.orange-text h2 {
+  color: #FF8C64;
+}
+
+.purple-text {
+  color: #9747ff !important;
+}
+.purple-text p {
+  color: #9747ff !important;
+}
+.purple-text a {
+  color: #9747ff !important;
+}
+.purple-text h3 {
+  color: #9747ff !important;
+}
+
+.green-text {
+  color: #CAFE41;
+}
+.green-text a {
+  color: #CAFE41;
+}
+.green-text p {
+  color: #CAFE41;
+}
+
+.bg-orange {
+  background-color: #FF8C64;
+}
+
+.bg-white {
+  background-color: #FEFEFC;
+}
+
+.bg-purple {
+  background-color: #9747ff;
+}
+
+.bg-light-purple {
+  background-color: #d0b0f5;
+}
+
+.bg-green {
+  background-color: #CAFE41;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 28px;
+  font-size: 1.75rem;
+  padding: 4px 24px;
+  padding: 0.25rem 1.5rem;
+  border-radius: 24px;
+  border: none;
+}
+
 h2 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
-  font-size: 70px;
-  font-weight: 400;
+  color: #CAFE41;
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 h3 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
+  color: #CAFE41;
   font-size: 40px;
   font-weight: 400;
 }
 
 h4 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
+  color: #CAFE41;
   font-size: 36px;
   font-weight: 400;
 }
 
 p,
 li {
-  color: #F9F9F9;
-  font-family: Nunito;
-  font-size: 20px;
+  color: #FF8C64;
+  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
+}
+
+.ptb-10 {
+  padding: 80px 160px !important;
+  padding: 5rem 10rem !important;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 p.small-text {
   font-size: 0.8em;
+}
+
+.subtitle-size {
+  font-size: 28px;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .simple-content ul {
@@ -109,13 +183,17 @@ p.small-text {
 .green-line {
   margin-top: 5em;
   opacity: 1;
-  color: #77F1A1;
+  color: #CAFE41;
 }
 
 .align-items-baseline {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 @media (max-width: 992px) {
@@ -139,7 +217,7 @@ p.small-text {
   }
 }
 ::-webkit-scrollbar-track {
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 
 /* Scrollbar Handle */
@@ -150,7 +228,7 @@ p.small-text {
 
 /* Scrollbar Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #77F1A1;
+  background-color: #CAFE41;
 }
 
 /* Scrollbar Width */
@@ -161,30 +239,35 @@ p.small-text {
 html,
 body {
   overflow-x: hidden;
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .inner-body {
   min-height: 68vh;
-  background-color: #1F2B37;
+  background-color: #9747ff;
+}
+
+p {
+  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 a {
-  color: #77F1A1;
+  color: #CAFE41;
 }
 
 a:hover {
-  color: #77F1A1;
+  color: #CAFE41;
   -webkit-filter: brightness(80%);
           filter: brightness(80%);
 }
 
 .alert-debug {
-  background-color: #f7f7f7;
+  background-color: #FEFEFC;
   border-color: #d6e9c6;
   color: #000;
 }
@@ -195,40 +278,120 @@ a:hover {
   color: #b94a48;
 }
 
+.orange-text {
+  color: #FF8C64;
+}
+
+.orange-text h2 {
+  color: #FF8C64;
+}
+
+.purple-text {
+  color: #9747ff !important;
+}
+
+.purple-text p {
+  color: #9747ff !important;
+}
+
+.purple-text a {
+  color: #9747ff !important;
+}
+
+.purple-text h3 {
+  color: #9747ff !important;
+}
+
+.green-text {
+  color: #CAFE41;
+}
+
+.green-text a {
+  color: #CAFE41;
+}
+
+.green-text p {
+  color: #CAFE41;
+}
+
+.bg-orange {
+  background-color: #FF8C64;
+}
+
+.bg-white {
+  background-color: #FEFEFC;
+}
+
+.bg-purple {
+  background-color: #9747ff;
+}
+
+.bg-light-purple {
+  background-color: #d0b0f5;
+}
+
+.bg-green {
+  background-color: #CAFE41;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 28px;
+  font-size: 1.75rem;
+  padding: 4px 24px;
+  padding: 0.25rem 1.5rem;
+  border-radius: 24px;
+  border: none;
+}
+
 h2 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
-  font-size: 70px;
-  font-weight: 400;
+  color: #CAFE41;
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 h3 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
+  color: #CAFE41;
   font-size: 40px;
   font-weight: 400;
 }
 
 h4 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
+  color: #CAFE41;
   font-size: 36px;
   font-weight: 400;
 }
 
 p,
 li {
-  color: #F9F9F9;
-  font-family: Nunito;
-  font-size: 20px;
+  color: #FF8C64;
+  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
+}
+
+.ptb-10 {
+  padding: 80px 160px !important;
+  padding: 5rem 10rem !important;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 p.small-text {
   font-size: 0.8em;
+}
+
+.subtitle-size {
+  font-size: 28px;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .simple-content ul {
@@ -248,13 +411,17 @@ p.small-text {
 .green-line {
   margin-top: 5em;
   opacity: 1;
-  color: #77F1A1;
+  color: #CAFE41;
 }
 
 .align-items-baseline {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 @media (max-width: 992px) {
@@ -278,7 +445,7 @@ p.small-text {
   }
 }
 ::-webkit-scrollbar-track {
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 
 /* Scrollbar Handle */
@@ -289,7 +456,7 @@ p.small-text {
 
 /* Scrollbar Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #77F1A1;
+  background-color: #CAFE41;
 }
 
 /* Scrollbar Width */
@@ -298,10 +465,10 @@ p.small-text {
 }
 
 .custom-footer {
-  background-color: #5076F6;
-  color: #FDFDFD;
+  background-color: #40027B;
+  color: #B97FF8;
   position: relative;
-  padding-top: 8vh;
+  padding-top: 6vh;
 }
 @media (max-width: 990px) {
   .custom-footer .footer-media {
@@ -321,8 +488,8 @@ p.small-text {
 }
 .custom-footer .footer-title {
   padding-left: 50px;
-  color: #77F1A1;
-  font-family: "Share Tech";
+  color: #B97FF8;
+  font-family: "Anton", sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -333,8 +500,8 @@ p.small-text {
     font-size: 36px;
   }
 }
-.custom-footer a {
-  color: #F9F9F9;
+.custom-footer a, .custom-footer a:hover {
+  color: #B97FF8;
 }
 .custom-footer .p {
   color: #F9F9F9;
@@ -344,10 +511,17 @@ p.small-text {
   padding: 0.25rem;
 }
 .custom-footer .footer-end {
+  color: #B97FF8;
   padding-top: 16px;
   padding-top: 1rem;
   padding-bottom: 16px;
   padding-bottom: 1rem;
+}
+.custom-footer .footer-end p {
+  color: #B97FF8;
+}
+.custom-footer .footer-end p span.heart {
+  color: red;
 }
 @media (min-width: 768px) {
   .custom-footer .footer-end p {
@@ -355,8 +529,8 @@ p.small-text {
   }
 }
 .custom-footer .footer-end p {
-  font-family: Nunito;
-  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
   font-weight: 800;
   margin: 2px;
   margin: 0.125rem;
@@ -380,7 +554,7 @@ p.small-text {
       -ms-flex-align: center;
           align-items: center;
   margin: 0.5em;
-  background-color: #77F1A1;
+  background-color: #B97FF8;
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -435,30 +609,35 @@ p.small-text {
 html,
 body {
   overflow-x: hidden;
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .inner-body {
   min-height: 68vh;
-  background-color: #1F2B37;
+  background-color: #9747ff;
+}
+
+p {
+  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 a {
-  color: #77F1A1;
+  color: #CAFE41;
 }
 
 a:hover {
-  color: #77F1A1;
+  color: #CAFE41;
   -webkit-filter: brightness(80%);
           filter: brightness(80%);
 }
 
 .alert-debug {
-  background-color: #f7f7f7;
+  background-color: #FEFEFC;
   border-color: #d6e9c6;
   color: #000;
 }
@@ -469,40 +648,120 @@ a:hover {
   color: #b94a48;
 }
 
+.orange-text {
+  color: #FF8C64;
+}
+
+.orange-text h2 {
+  color: #FF8C64;
+}
+
+.purple-text {
+  color: #9747ff !important;
+}
+
+.purple-text p {
+  color: #9747ff !important;
+}
+
+.purple-text a {
+  color: #9747ff !important;
+}
+
+.purple-text h3 {
+  color: #9747ff !important;
+}
+
+.green-text {
+  color: #CAFE41;
+}
+
+.green-text a {
+  color: #CAFE41;
+}
+
+.green-text p {
+  color: #CAFE41;
+}
+
+.bg-orange {
+  background-color: #FF8C64;
+}
+
+.bg-white {
+  background-color: #FEFEFC;
+}
+
+.bg-purple {
+  background-color: #9747ff;
+}
+
+.bg-light-purple {
+  background-color: #d0b0f5;
+}
+
+.bg-green {
+  background-color: #CAFE41;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 28px;
+  font-size: 1.75rem;
+  padding: 4px 24px;
+  padding: 0.25rem 1.5rem;
+  border-radius: 24px;
+  border: none;
+}
+
 h2 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
-  font-size: 70px;
-  font-weight: 400;
+  color: #CAFE41;
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 h3 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
+  color: #CAFE41;
   font-size: 40px;
   font-weight: 400;
 }
 
 h4 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
+  color: #CAFE41;
   font-size: 36px;
   font-weight: 400;
 }
 
 p,
 li {
-  color: #F9F9F9;
-  font-family: Nunito;
-  font-size: 20px;
+  color: #FF8C64;
+  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
+}
+
+.ptb-10 {
+  padding: 80px 160px !important;
+  padding: 5rem 10rem !important;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 p.small-text {
   font-size: 0.8em;
+}
+
+.subtitle-size {
+  font-size: 28px;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .simple-content ul {
@@ -522,13 +781,17 @@ p.small-text {
 .green-line {
   margin-top: 5em;
   opacity: 1;
-  color: #77F1A1;
+  color: #CAFE41;
 }
 
 .align-items-baseline {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 @media (max-width: 992px) {
@@ -552,7 +815,7 @@ p.small-text {
   }
 }
 ::-webkit-scrollbar-track {
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 
 /* Scrollbar Handle */
@@ -563,7 +826,7 @@ p.small-text {
 
 /* Scrollbar Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #77F1A1;
+  background-color: #CAFE41;
 }
 
 /* Scrollbar Width */
@@ -572,7 +835,7 @@ p.small-text {
 }
 
 .header {
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 .header .navbar-brand img {
   max-width: 80px;
@@ -581,7 +844,7 @@ p.small-text {
   display: none;
 }
 .header .navbar-toggler i {
-  color: #77F1A1;
+  color: #CAFE41;
   font-size: 42px;
   -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
@@ -616,18 +879,22 @@ p.small-text {
   padding: 11.2px;
   padding: 0.7rem;
 }
+.header ul li {
+  font-size: 16px;
+}
 .header ul a,
 .header ul a:hover {
-  color: #FFF;
+  color: #CAFE41;
+  text-transform: uppercase;
 }
 .header ul a.dropdown-item,
 .header ul a:hover.dropdown-item {
-  color: white;
+  color: #CAFE41;
 }
 .header ul a.dropdown-item:hover,
 .header ul a:hover.dropdown-item:hover {
-  background-color: white !important;
-  color: #1F2B37 !important;
+  background-color: #CAFE41;
+  color: #9747ff;
 }
 .header ul a.dropdown-item a,
 .header ul a:hover.dropdown-item a {
@@ -637,8 +904,7 @@ p.small-text {
   display: none;
 }
 .header ul .nav-link {
-  font-family: "Share Tech";
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -652,11 +918,8 @@ p.small-text {
   }
 }
 .header .dropdown-menu {
-  background: #1F2B37;
+  background: #9747ff;
   border: 1px solid #f7f7f7;
-}
-.header .dropdown-menu a {
-  font-family: "Share Tech";
 }
 
 @media (max-width: 991px) {
@@ -667,30 +930,35 @@ p.small-text {
 html,
 body {
   overflow-x: hidden;
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .inner-body {
   min-height: 68vh;
-  background-color: #1F2B37;
+  background-color: #9747ff;
+}
+
+p {
+  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 a {
-  color: #77F1A1;
+  color: #CAFE41;
 }
 
 a:hover {
-  color: #77F1A1;
+  color: #CAFE41;
   -webkit-filter: brightness(80%);
           filter: brightness(80%);
 }
 
 .alert-debug {
-  background-color: #f7f7f7;
+  background-color: #FEFEFC;
   border-color: #d6e9c6;
   color: #000;
 }
@@ -701,40 +969,120 @@ a:hover {
   color: #b94a48;
 }
 
+.orange-text {
+  color: #FF8C64;
+}
+
+.orange-text h2 {
+  color: #FF8C64;
+}
+
+.purple-text {
+  color: #9747ff !important;
+}
+
+.purple-text p {
+  color: #9747ff !important;
+}
+
+.purple-text a {
+  color: #9747ff !important;
+}
+
+.purple-text h3 {
+  color: #9747ff !important;
+}
+
+.green-text {
+  color: #CAFE41;
+}
+
+.green-text a {
+  color: #CAFE41;
+}
+
+.green-text p {
+  color: #CAFE41;
+}
+
+.bg-orange {
+  background-color: #FF8C64;
+}
+
+.bg-white {
+  background-color: #FEFEFC;
+}
+
+.bg-purple {
+  background-color: #9747ff;
+}
+
+.bg-light-purple {
+  background-color: #d0b0f5;
+}
+
+.bg-green {
+  background-color: #CAFE41;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 28px;
+  font-size: 1.75rem;
+  padding: 4px 24px;
+  padding: 0.25rem 1.5rem;
+  border-radius: 24px;
+  border: none;
+}
+
 h2 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
-  font-size: 70px;
-  font-weight: 400;
+  color: #CAFE41;
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 h3 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
+  color: #CAFE41;
   font-size: 40px;
   font-weight: 400;
 }
 
 h4 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
+  color: #CAFE41;
   font-size: 36px;
   font-weight: 400;
 }
 
 p,
 li {
-  color: #F9F9F9;
-  font-family: Nunito;
-  font-size: 20px;
+  color: #FF8C64;
+  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
+}
+
+.ptb-10 {
+  padding: 80px 160px !important;
+  padding: 5rem 10rem !important;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 p.small-text {
   font-size: 0.8em;
+}
+
+.subtitle-size {
+  font-size: 28px;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .simple-content ul {
@@ -754,13 +1102,17 @@ p.small-text {
 .green-line {
   margin-top: 5em;
   opacity: 1;
-  color: #77F1A1;
+  color: #CAFE41;
 }
 
 .align-items-baseline {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 @media (max-width: 992px) {
@@ -784,7 +1136,7 @@ p.small-text {
   }
 }
 ::-webkit-scrollbar-track {
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 
 /* Scrollbar Handle */
@@ -795,7 +1147,7 @@ p.small-text {
 
 /* Scrollbar Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #77F1A1;
+  background-color: #CAFE41;
 }
 
 /* Scrollbar Width */
@@ -805,8 +1157,11 @@ p.small-text {
 
 /*#region HomeHero*/
 .home-hero {
-  margin-top: 100px;
-  background-color: #1F2B37;
+  background-color: #9747ff;
+  background-image: url("../images/home/hero.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 .home-hero .button-wrapper, .home-hero .button-wrapper-mobile {
   position: relative;
@@ -834,7 +1189,6 @@ p.small-text {
   border-radius: 5px;
   -webkit-transform-origin: left center;
           transform-origin: left center;
-  font-family: "Share Tech";
   border: 0;
   cursor: default;
 }
@@ -885,7 +1239,7 @@ p.small-text {
 .home-hero .button-1 {
   -webkit-transform: rotate(-2.639deg);
           transform: rotate(-2.639deg);
-  color: #1F2B37;
+  color: #8711F6;
   background: #5076F6;
   font-size: 52px;
   font-style: normal;
@@ -897,7 +1251,7 @@ p.small-text {
 .home-hero .button-2 {
   -webkit-transform: rotate(3.283deg);
           transform: rotate(3.283deg);
-  color: #1F2B37;
+  color: #8711F6;
   background: #F9F9F9;
   font-size: 52px;
   font-style: normal;
@@ -912,7 +1266,7 @@ p.small-text {
   -webkit-transform: rotate(-0.767deg);
           transform: rotate(-0.767deg);
   color: #5076F6;
-  background: #77F1A1;
+  background: #CAFE41;
   font-size: 52px;
   font-style: normal;
   font-weight: 400;
@@ -983,11 +1337,33 @@ p.small-text {
   }
 }
 
+.why-attend-section {
+  position: relative;
+  background-image: url("../images/home/why_attend_pycon.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.why-attend-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 140, 100, 0.85);
+  pointer-events: none;
+  z-index: 1;
+}
+.why-attend-section .container {
+  position: relative;
+  z-index: 2;
+}
+
 /*#endregion HomeHero*/
 /*#region HomeHeroSubsection*/
 .home-hero-subsection {
   margin-top: 160px;
-  font-family: "Share Tech";
 }
 .home-hero-subsection .info-mobile {
   display: none;
@@ -1009,8 +1385,7 @@ p.small-text {
   display: flex;
 }
 .home-hero-subsection .left .ticket p {
-  color: #1F2B37;
-  font-family: "Share Tech";
+  color: #8711F6;
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -1018,10 +1393,10 @@ p.small-text {
   margin: 10px 20px 10px 0;
 }
 .home-hero-subsection .left .ticket {
-  background: #77F1A1;
+  background: #CAFE41;
 }
 .home-hero-subsection .left .filler {
-  background: #77F1A1;
+  background: #CAFE41;
 }
 .home-hero-subsection .left .filler img {
   width: 90%;
@@ -1039,7 +1414,6 @@ p.small-text {
   background: #5076F6;
   color: #000;
   text-align: center;
-  font-family: "Share Tech";
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
@@ -1057,7 +1431,6 @@ p.small-text {
           transform: rotate(-2.725deg);
   color: #5076F6;
   text-align: center;
-  font-family: "Share Tech";
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -1076,7 +1449,6 @@ p.small-text {
           transform: rotate(5.584deg);
   color: #F9F9F9;
   text-align: center;
-  font-family: "Share Tech";
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
@@ -1092,7 +1464,6 @@ p.small-text {
 .home-hero-subsection .right .location {
   color: #F9F9F9;
   text-align: right;
-  font-family: "Share Tech";
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -1101,7 +1472,6 @@ p.small-text {
 .home-hero-subsection .right .date {
   color: #5076F6;
   text-align: right;
-  font-family: "Share Tech";
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -1109,7 +1479,7 @@ p.small-text {
 }
 .home-hero-subsection .right .xaxa-text {
   margin: 50px 0 0 100px;
-  color: #77F1A1;
+  color: #CAFE41;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -1302,95 +1672,72 @@ p.small-text {
 
 /*#endregion HomeHeroSubsection*/
 /*#region HomeTickets */
-.home-tickets {
-  margin-top: 100px;
-}
 .home-tickets .tickets-section-title {
-  -webkit-transform: rotate(2.233deg);
-          transform: rotate(2.233deg);
-  background: #F9F9F9;
-  border: 0;
-  color: #1F2B37;
   text-align: center;
-  font-family: "Share Tech";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 88px;
-  padding: 10px 80px 10px 80px;
   cursor: default;
-  margin-top: 100px;
 }
-.home-tickets .ticket-card-width {
+.home-tickets .ticket-card {
   max-width: 475px;
 }
-.home-tickets .ticket-card-green {
-  border: 2px solid #77F1A1;
+.home-tickets .ticket-card .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.home-tickets .ticket-card-white {
-  border: 2px solid #F9F9F9;
-}
-.home-tickets .ticket-card-blue {
-  border: 2px solid #5076F6;
-}
-.home-tickets .card-green {
-  color: #77F1A1;
-}
-.home-tickets .card-white {
-  color: #F9F9F9;
-}
-.home-tickets .card-blue {
-  color: #5076F6;
-}
-.home-tickets h4 {
-  font-family: "Share Tech";
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.home-tickets .ticket-card .btn a {
+  text-decoration: none;
 }
 .home-tickets .detail {
-  font-family: Nunito;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-align: center;
-  margin-left: -100px;
-  margin-bottom: 0;
-}
-.home-tickets .detail-green {
-  margin-left: -90px;
-}
-.home-tickets .detail-white {
-  margin-left: -140px;
-}
-.home-tickets .detail-blue {
-  margin-left: -110px;
-}
-.home-tickets .price {
-  font-family: Nunito;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-align: center;
-}
-.home-tickets .description {
-  font-family: Nunito;
-  font-size: 24px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 80px;
+  margin-bottom: 0;
+}
+.home-tickets .price {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.home-tickets p {
+  font-size: 28px;
+  font-size: 1.75rem;
 }
 .home-tickets a {
-  color: white;
   text-decoration: none;
 }
 .home-tickets .row > * {
   padding-bottom: 32px !important;
   padding-bottom: 2rem !important;
+}
+.home-tickets .ticket-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.home-tickets .ticket-card > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  width: 100%;
+}
+.home-tickets .ticket-card > div button {
+  margin-top: auto;
 }
 .home-tickets .tickets-call-to-action a {
   color: #1F2B37;
@@ -1400,7 +1747,6 @@ p.small-text {
   left: 24%;
   top: 87%;
   text-align: center;
-  font-family: "Share Tech";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -1412,7 +1758,7 @@ p.small-text {
   border: 0;
 }
 .home-tickets .call-to-action-green {
-  background: #77F1A1;
+  background: #CAFE41;
   -webkit-transition: -webkit-filter 0.3s ease-in-out;
   transition: -webkit-filter 0.3s ease-in-out;
   transition: filter 0.3s ease-in-out;
@@ -1467,9 +1813,6 @@ p.small-text {
   .home-tickets h4 {
     font-size: 36px;
   }
-  .home-tickets .description {
-    font-size: 20px;
-  }
 }
 @media (max-width: 500px) {
   .home-tickets .tickets-call-to-action {
@@ -1502,7 +1845,6 @@ p.small-text {
           transform: rotate(-3.163deg);
   color: #5076F6;
   text-align: center;
-  font-family: "Share Tech";
   font-size: 70px;
   font-style: normal;
   font-weight: 400;
@@ -1514,12 +1856,11 @@ p.small-text {
   margin-top: 150px;
 }
 .home-previous-editions .button-2 {
-  background: #77F1A1;
+  background: #CAFE41;
   -webkit-transform: rotate(0.688deg);
           transform: rotate(0.688deg);
-  color: #1F2B37;
+  color: #8711F6;
   text-align: center;
-  font-family: "Share Tech";
   font-size: 70px;
   font-style: normal;
   font-weight: 400;
@@ -1535,9 +1876,8 @@ p.small-text {
   background: #5076F6;
   -webkit-transform: rotate(-5.183deg);
           transform: rotate(-5.183deg);
-  color: #77F1A1;
+  color: #CAFE41;
   text-align: center;
-  font-family: "Share Tech";
   font-size: 70px;
   font-style: normal;
   font-weight: 400;
@@ -1552,7 +1892,7 @@ p.small-text {
 }
 .home-previous-editions .editions-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   max-width: 1400px;
   margin: 0 auto;
@@ -1561,10 +1901,19 @@ p.small-text {
 }
 .home-previous-editions .grid-item {
   position: relative;
-  overflow: hidden;
-  border-radius: 8px;
 }
-.home-previous-editions .grid-item img {
+.home-previous-editions .edition-image {
+  position: relative;
+  aspect-ratio: 4/2;
+}
+.home-previous-editions .edition-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(151, 71, 255, 0.75);
+  pointer-events: none;
+}
+.home-previous-editions .edition-image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -1573,7 +1922,6 @@ p.small-text {
 }
 .home-previous-editions .grid-item.small {
   grid-column: span 1;
-  aspect-ratio: 1/1;
 }
 @media (max-width: 1024px) {
   .home-previous-editions .button-1 {
@@ -1599,7 +1947,6 @@ p.small-text {
   .home-previous-editions .grid-item.small {
     grid-column: span 1;
     max-width: 326px;
-    height: 288px;
     margin: 0 auto;
   }
   .home-previous-editions .button-1 {
@@ -1654,91 +2001,57 @@ p.small-text {
     margin-left: 50px;
   }
 }
+.home-previous-editions .edition-caption {
+  margin-top: 8px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home-previous-editions .edition-caption p {
+  margin: 0;
+}
 
 /*endregion HomePreviousEditions */
 /*#region Speakers */
-.home-speakers a {
-  text-decoration: none;
+.home-speakers .speaker-card .speaker-information {
+  padding-left: 48px;
+  padding-left: 3rem;
+  padding-bottom: 16px;
+  padding-bottom: 1rem;
 }
-.home-speakers .title-wrapper {
-  margin-bottom: 100px;
-  margin-top: 200px;
+.home-speakers .speaker-card .speaker-information img {
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
 }
-.home-speakers .speakers-title-1 {
-  cursor: default;
-  z-index: 2;
-  border: 0;
-  -webkit-transform: rotate(2.233deg);
-          transform: rotate(2.233deg);
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  color: #F9F9F9;
-  background: #77F1A1;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 88px;
+.home-speakers .speaker-card .speaker-information > div:first-child {
+  position: relative;
+  overflow: hidden;
 }
-.home-speakers .speakers-title-2 {
-  cursor: default;
-  z-index: 1;
-  border: 0;
-  margin-top: 10px;
-  -webkit-transform: rotate(-3.07deg);
-          transform: rotate(-3.07deg);
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  background: #F9F9F9;
-  color: #77F1A1;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 88px;
-}
-.home-speakers .speaker-name {
-  font-family: Nunito;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-}
-.home-speakers .speaker-function {
-  margin-left: -60px;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border: 0;
-  width: 120px;
-  height: 30px;
+.home-speakers .speaker-card .speaker-information > div:first-child::before {
+  content: "";
   position: absolute;
+  inset: 0;
+  pointer-events: none;
 }
-.home-speakers .keynote {
-  color: #5076F6;
+.home-speakers .speaker-card:nth-child(1) .speaker-information > div:first-child::before {
+  background-color: rgba(185, 127, 248, 0.4);
 }
-.home-speakers .talk {
-  color: #77F1A1;
+.home-speakers .speaker-card:nth-child(2) .speaker-information > div:first-child::before {
+  background-color: rgba(202, 254, 65, 0.4);
 }
-.home-speakers .workshop {
-  color: #F9F9F9;
-}
-.home-speakers .keynote-button {
-  background: #5076F6;
-  color: #77F1A1;
-}
-.home-speakers .talk-button {
-  background: #77F1A1;
-  color: #1F2B37;
-}
-.home-speakers .workshop-button {
-  background: #F9F9F9;
-  color: #5076F6;
+.home-speakers .speaker-card:nth-child(3) .speaker-information > div:first-child::before {
+  background-color: rgba(255, 140, 100, 0.4);
 }
 .home-speakers .carousel-item {
   text-align: center;
@@ -1757,13 +2070,24 @@ p.small-text {
 }
 .home-speakers .carousel-control-prev,
 .home-speakers .carousel-control-next {
-  width: 5%;
+  width: auto;
+  opacity: 1;
 }
-.home-speakers .carousel-control-prev {
-  margin-left: -50px;
-}
-.home-speakers .carousel-control-next {
-  margin-right: -50px;
+.home-speakers .speakers-carousel-controls .carousel-control-prev,
+.home-speakers .speakers-carousel-controls .carousel-control-next {
+  position: static;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 20px;
+  padding: 0.5rem 1.25rem;
+  border-radius: 999px;
 }
 @media (max-width: 992px) {
   .home-speakers #speakersCarousel {
@@ -1814,42 +2138,11 @@ p.small-text {
 
 /*#endregion Speakers */
 /*region HomeImportantDates */
-.home-important-dates .button-1 {
-  background: #F9F9F9;
-  color: #5076F6;
-  -webkit-transform: rotate(2.233deg);
-          transform: rotate(2.233deg);
-  border: 0;
-  cursor: default;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 88px; /* 110% */
-  margin-left: -250px;
-  margin-top: 100px;
-  padding: 5px 30px 5px 30px;
-  z-index: 10;
-}
-.home-important-dates .button-2 {
-  background: #5076F6;
-  color: #F9F9F9;
-  -webkit-transform: rotate(-3.07deg);
-          transform: rotate(-3.07deg);
-  border: 0;
-  cursor: default;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 88px; /* 110% */
-  margin-left: 350px;
-  margin-top: -50px;
-  margin-bottom: 100px;
-  padding: 5px 30px 5px 30px;
-  z-index: 1;
+.home-important-dates h4 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  justify-self: end;
 }
 .home-important-dates img {
   position: absolute;
@@ -1857,53 +2150,6 @@ p.small-text {
   top: 0;
   z-index: 0;
   opacity: 0.7;
-}
-.home-important-dates .button {
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: 50px;
-  z-index: 1;
-  position: relative;
-  border: 0;
-  cursor: default !important;
-  padding: 10px 20px 10px 20px;
-  width: 200px;
-}
-.home-important-dates .text {
-  font-family: Nunito;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: -20px;
-  margin-bottom: 100px;
-  z-index: 1;
-  position: relative;
-}
-.home-important-dates .color-green {
-  color: #77F1A1;
-}
-.home-important-dates .color-blue {
-  color: #5076F6;
-}
-.home-important-dates .color-white {
-  color: #F9F9F9;
-}
-.home-important-dates .color-dark-blue {
-  color: #1F2B37;
-}
-.home-important-dates .background-green {
-  background: #77F1A1;
-}
-.home-important-dates .background-blue {
-  background: #5076F6;
-}
-.home-important-dates .background-white {
-  background: #F9F9F9;
 }
 .home-important-dates .important-date-link {
   text-decoration: unset;
@@ -1962,98 +2208,13 @@ p.small-text {
 
 /*endregion HomeImportantDates */
 /*#region Sponsors */
-.home-sponsors {
-  margin-bottom: 200px;
-}
-.home-sponsors .sponsors-title {
-  border: 0;
-  color: #F9F9F9;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 88px;
-  background: #5076F6;
-  -webkit-transform: rotate(2.233deg);
-          transform: rotate(2.233deg);
-  margin-top: 100px;
-  cursor: default !important;
-}
-.home-sponsors .diamond {
-  border: 0;
-  cursor: default;
-  color: #5076F6;
-  text-align: center;
-  font-family: "Share Tech";
+.home-sponsors h3 {
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  background: #77F1A1;
-  padding: 10px 0 10px 0;
-  width: 170px;
-  margin: 100px 0 80px 0;
-}
-.home-sponsors .platinum {
-  border: 0;
-  cursor: default;
-  color: #5076F6;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  background: #F9F9F9;
-  padding: 10px 0 10px 0;
-  width: 170px;
-  margin: 80px 0 80px 0;
-}
-.home-sponsors .silver {
-  border: 0;
-  cursor: default;
-  color: #1F2B37;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  background: #F9F9F9;
-  padding: 10px 0 10px 0;
-  width: 170px;
-  margin: 80px 0 80px 0;
-}
-.home-sponsors .grants {
-  border: 0;
-  cursor: default;
-  color: #77F1A1;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  background: #5076F6;
-  padding: 10px 0 10px 0;
-  width: 170px;
-  margin: 80px 0 80px 0;
-}
-.home-sponsors .organizer {
-  border: 0;
-  cursor: default;
-  color: #1F2B37;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  background: #77F1A1;
-  padding: 10px 0 10px 0;
-  width: 170px;
-  margin: 80px 0 80px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 8px;
+  padding: 0.5rem;
+  margin: 0;
 }
 .home-sponsors img {
   margin: 0 30px 0 30px;
@@ -2076,86 +2237,41 @@ p.small-text {
 
 /*#endregion Sponsors */
 /*#region HomeFreeTickets */
-.home-free-tickets {
-  margin-top: 100px;
-  margin-bottom: 150px;
-}
 .home-free-tickets .free-tickets-width {
   max-width: 475px;
 }
-.home-free-tickets .free-tickets-section-title-1 {
-  margin-left: -100px;
-  -webkit-transform: rotate(-2.517deg);
-          transform: rotate(-2.517deg);
-  background: #5076F6;
-  border: 0;
-  color: #77F1A1;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 88px;
-  cursor: default;
-}
-.home-free-tickets .free-tickets-section-title-2 {
-  margin-top: -30px;
-  margin-left: 300px;
-  -webkit-transform: rotate(1.444deg);
-          transform: rotate(1.444deg);
-  background: #77F1A1;
-  border: 0;
-  color: #5076F6;
-  text-align: center;
-  font-family: "Share Tech";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 88px;
-  cursor: default;
-}
 .home-free-tickets .ticket-card-green {
-  border: 2px solid #77F1A1;
+  border: 2px solid #CAFE41;
 }
 .home-free-tickets .ticket-card-white {
   border: 2px solid #F9F9F9;
 }
-.home-free-tickets .ticket-card-blue {
-  border: 2px solid #5076F6;
+.home-free-tickets .btn {
+  -moz-text-align-last: justify;
+       text-align-last: justify;
 }
-.home-free-tickets .card-green {
-  color: #77F1A1;
-}
-.home-free-tickets .card-white {
-  color: #F9F9F9;
-}
-.home-free-tickets .card-blue {
-  color: #5076F6;
-}
-.home-free-tickets h4 {
-  font-family: "Share Tech";
-  font-size: 48px;
+.home-free-tickets h3 {
+  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
+  color: #FF8C64;
 }
-.home-free-tickets .description {
-  font-family: Nunito;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: 80px;
-  text-align: left;
-  padding: 0 10px 0 10px;
+.home-free-tickets p {
+  color: #9747ff;
 }
 .home-free-tickets a {
-  color: white;
   text-decoration: none;
 }
 .home-free-tickets .row > * {
   padding-bottom: 32px !important;
   padding-bottom: 2rem !important;
+}
+.home-free-tickets .width-fit-content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .home-free-tickets .tickets-call-to-action a {
   color: #1F2B37;
@@ -2165,7 +2281,6 @@ p.small-text {
   text-align: center;
   position: absolute;
   margin-top: -5px;
-  font-family: "Share Tech";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -2178,7 +2293,7 @@ p.small-text {
   border: 0;
 }
 .home-free-tickets .call-to-action-green {
-  background: #77F1A1;
+  background: #CAFE41;
   -webkit-transition: -webkit-filter 0.3s ease-in-out;
   transition: -webkit-filter 0.3s ease-in-out;
   transition: filter 0.3s ease-in-out;
@@ -2235,9 +2350,6 @@ p.small-text {
     line-height: 50px;
     margin-top: -10px;
   }
-  .home-free-tickets .description {
-    font-size: 20px;
-  }
   .home-free-tickets h4 {
     font-size: 36px;
   }
@@ -2262,33 +2374,42 @@ p.small-text {
 }
 
 /*#endregion HomeFreeTickets*/
+.card-width {
+  max-width: 475px;
+}
+
 html,
 body {
   overflow-x: hidden;
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .inner-body {
   min-height: 68vh;
-  background-color: #1F2B37;
+  background-color: #9747ff;
+}
+
+p {
+  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 a {
-  color: #77F1A1;
+  color: #CAFE41;
 }
 
 a:hover {
-  color: #77F1A1;
+  color: #CAFE41;
   -webkit-filter: brightness(80%);
           filter: brightness(80%);
 }
 
 .alert-debug {
-  background-color: #f7f7f7;
+  background-color: #FEFEFC;
   border-color: #d6e9c6;
   color: #000;
 }
@@ -2299,40 +2420,120 @@ a:hover {
   color: #b94a48;
 }
 
+.orange-text {
+  color: #FF8C64;
+}
+
+.orange-text h2 {
+  color: #FF8C64;
+}
+
+.purple-text {
+  color: #9747ff !important;
+}
+
+.purple-text p {
+  color: #9747ff !important;
+}
+
+.purple-text a {
+  color: #9747ff !important;
+}
+
+.purple-text h3 {
+  color: #9747ff !important;
+}
+
+.green-text {
+  color: #CAFE41;
+}
+
+.green-text a {
+  color: #CAFE41;
+}
+
+.green-text p {
+  color: #CAFE41;
+}
+
+.bg-orange {
+  background-color: #FF8C64;
+}
+
+.bg-white {
+  background-color: #FEFEFC;
+}
+
+.bg-purple {
+  background-color: #9747ff;
+}
+
+.bg-light-purple {
+  background-color: #d0b0f5;
+}
+
+.bg-green {
+  background-color: #CAFE41;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 28px;
+  font-size: 1.75rem;
+  padding: 4px 24px;
+  padding: 0.25rem 1.5rem;
+  border-radius: 24px;
+  border: none;
+}
+
 h2 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
-  font-size: 70px;
-  font-weight: 400;
+  color: #CAFE41;
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 h3 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
+  color: #CAFE41;
   font-size: 40px;
   font-weight: 400;
 }
 
 h4 {
   padding: 0;
-  color: #F9F9F9;
-  font-family: Share Tech;
+  color: #CAFE41;
   font-size: 36px;
   font-weight: 400;
 }
 
 p,
 li {
-  color: #F9F9F9;
-  font-family: Nunito;
-  font-size: 20px;
+  color: #FF8C64;
+  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
+}
+
+.ptb-10 {
+  padding: 80px 160px !important;
+  padding: 5rem 10rem !important;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 p.small-text {
   font-size: 0.8em;
+}
+
+.subtitle-size {
+  font-size: 28px;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .simple-content ul {
@@ -2352,13 +2553,17 @@ p.small-text {
 .green-line {
   margin-top: 5em;
   opacity: 1;
-  color: #77F1A1;
+  color: #CAFE41;
 }
 
 .align-items-baseline {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 @media (max-width: 992px) {
@@ -2382,7 +2587,7 @@ p.small-text {
   }
 }
 ::-webkit-scrollbar-track {
-  background-color: #1F2B37;
+  background-color: #9747ff;
 }
 
 /* Scrollbar Handle */
@@ -2393,7 +2598,7 @@ p.small-text {
 
 /* Scrollbar Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #77F1A1;
+  background-color: #CAFE41;
 }
 
 /* Scrollbar Width */
@@ -2402,14 +2607,14 @@ p.small-text {
 }
 
 table {
-  border: solid #77F1A1 1px;
+  border: solid #CAFE41 1px;
 }
 
 td,
 th {
   color: #ffffff;
   padding: 0.5em;
-  border: #77F1A1 solid 1px;
+  border: #CAFE41 solid 1px;
 }
 
 blockquote p {

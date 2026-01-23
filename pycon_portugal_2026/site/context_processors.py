@@ -2,6 +2,7 @@ def links(request):
     return {
         "home": "/home/",
         "site_menu": {
+            "Logo": {},
             "Talks": {
                 "dropdown": "true",
                 "submenu": {
@@ -30,7 +31,6 @@ def links(request):
                     "SPONSORSHIP": "/sponsors/sponsorship/",
                 },
             },
-            "Logo": {},
             "Conduct": {
                 "dropdown": "true",
                 "submenu": {

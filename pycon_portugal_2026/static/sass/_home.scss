@@ -4,9 +4,11 @@
 
 /*#region HomeHero*/
 .home-hero {
-  margin-top: 100px;
-  background-color: base.$bgBlueGray;
-
+  background-color: base.$purple;
+  background-image: url('../images/home/hero.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 
   .button-wrapper, .button-wrapper-mobile {
     position: relative;
@@ -26,7 +28,6 @@
     font-weight: bold;
     border-radius: 5px;
     transform-origin: left center;
-    font-family: "Share Tech";
     border: 0;
     cursor: default;
   }
@@ -177,12 +178,35 @@
     }
   }
 }
+.why-attend-section {
+  position: relative;
+  background-image: url('../images/home/why_attend_pycon.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 140, 100, 0.85); // Laranja com 60% de opacidade
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+}
 
 /*#endregion HomeHero*/
 /*#region HomeHeroSubsection*/
 .home-hero-subsection {
   margin-top: 160px;
-  font-family: "Share Tech";
 
   .info-mobile {
     display: none;
@@ -203,7 +227,6 @@
 
       p {
         color: base.$DarkBlue;
-        font-family: "Share Tech";
         font-size: 48px;
         font-style: normal;
         font-weight: 400;
@@ -234,8 +257,7 @@
         background: #5076F6;
         color: #000;
         text-align: center;
-        font-family: "Share Tech";
-        font-size: 80px;
+            font-size: 80px;
         font-style: normal;
         font-weight: 400;
         line-height: 88px;
@@ -252,8 +274,7 @@
         transform: rotate(-2.725deg);
         color: #5076F6;
         text-align: center;
-        font-family: "Share Tech";
-        font-size: 64px;
+            font-size: 64px;
         font-style: normal;
         font-weight: 400;
         line-height: 64px;
@@ -271,8 +292,7 @@
         transform: rotate(5.584deg);
         color: #F9F9F9;
         text-align: center;
-        font-family: "Share Tech";
-        font-size: 80px;
+            font-size: 80px;
         font-style: normal;
         font-weight: 400;
         line-height: 80px;
@@ -291,8 +311,7 @@
     .location {
       color: #F9F9F9;
       text-align: right;
-      font-family: "Share Tech";
-      font-size: 48px;
+        font-size: 48px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -301,8 +320,7 @@
     .date {
       color: #5076F6;
       text-align: right;
-      font-family: "Share Tech";
-      font-size: 48px;
+        font-size: 48px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -370,7 +388,6 @@
 
         p {
           font-size: 36px;
-
         }
 
       }
@@ -546,112 +563,65 @@
 /*#endregion HomeHeroSubsection*/
 /*#region HomeTickets */
 .home-tickets {
-  margin-top: 100px;
-
   .tickets-section-title {
-    transform: rotate(2.233deg);
-    background: base.$WhiteGray;
-    border: 0;
-    color: #1F2B37;
     text-align: center;
-    font-family: "Share Tech";
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 88px;
-    padding: 10px 80px 10px 80px;
     cursor: default;
-    margin-top: 100px;
   }
 
-  .ticket-card-width {
+  .ticket-card {
     max-width: 475px;
+    .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    a {
+      text-decoration: none;
+    }
   }
-
-  .ticket-card-green {
-    border: 2px solid base.$Green;
-  }
-
-  .ticket-card-white {
-    border: 2px solid base.$WhiteGray;
-
-  }
-
-  .ticket-card-blue {
-    border: 2px solid base.$LightBlue;
-
-  }
-
-  .card-green {
-    color: base.$Green;
-  }
-
-  .card-white {
-    color: base.$WhiteGray;
-  }
-
-  .card-blue {
-    color: base.$LightBlue;
-  }
-
-  h4 {
-    font-family: "Share Tech";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
   }
 
   .detail {
-    font-family: Nunito;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-    margin-left: -100px;
-    margin-bottom: 0;
-  }
-
-  .detail-green {
-    margin-left: -90px;
-  }
-
-  .detail-white {
-    margin-left: -140px;
-  }
-
-  .detail-blue {
-    margin-left: -110px;
-  }
-
-
-  .price {
-    font-family: Nunito;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-  }
-
-  .description {
-    font-family: Nunito;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 80px;
+    margin-bottom: 0;
   }
 
+    .price {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+ p {
+  font-size: 1.75rem;
+ }
+
   a {
-    color: white;
     text-decoration: none;
   }
 
   .row > * {
     padding-bottom: 2rem !important;
+  }
+
+  // Ensure ticket cards have equal height
+  .ticket-card {
+    display: flex; // make column stretch
+  }
+  .ticket-card > div {
+    display: flex;           // card wrapper becomes flex container
+    flex-direction: column;  // stack content vertically
+    flex: 1 1 auto;          // fill available height
+    width: 100%;
+  }
+  // Keep the card button anchored to the bottom
+  .ticket-card > div button {
+    margin-top: auto;
   }
 
   .tickets-call-to-action {
@@ -662,8 +632,7 @@
     position: absolute;
     left: 24%;
     top: 87%;
-    text-align: center;
-    font-family: "Share Tech";
+      text-align: center;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -726,9 +695,6 @@
     h4 {
       font-size: 36px;
     }
-    .description {
-      font-size: 20px;
-    }
   }
   @media(max-width: 500px) {
     .tickets-call-to-action {
@@ -764,7 +730,6 @@
     transform: rotate(-3.163deg);
     color: base.$LightBlue;
     text-align: center;
-    font-family: "Share Tech";
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -781,7 +746,6 @@
     transform: rotate(0.688deg);
     color: base.$DarkBlue;
     text-align: center;
-    font-family: "Share Tech";
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -799,7 +763,6 @@
     transform: rotate(-5.183deg);
     color: base.$Green;
     text-align: center;
-    font-family: "Share Tech";
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -816,7 +779,7 @@
 
   .editions-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     max-width: 1400px;
     margin: 0 auto;
@@ -826,11 +789,22 @@
 
   .grid-item {
     position: relative;
-    overflow: hidden;
-    border-radius: 8px;
   }
 
-  .grid-item img {
+  .edition-image {
+    position: relative;
+    aspect-ratio: 4 / 2;
+  }
+
+  .edition-image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(base.$purple, 0.75);
+    pointer-events: none;
+  }
+
+  .edition-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -839,7 +813,6 @@
 
   .grid-item.small {
     grid-column: span 1;
-    aspect-ratio: 1/1;
   }
 
   @media(max-width: 1024px) {
@@ -866,7 +839,6 @@
     .grid-item.small {
       grid-column: span 1;
       max-width: 326px;
-      height: 288px;
       margin: 0 auto;
     }
     .button-1 {
@@ -921,102 +893,61 @@
       margin-left: 50px;
     }
   }
+
+  .edition-caption {
+    margin-top: 8px;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      margin: 0;
+    }
+  }
 }
 
 /*endregion HomePreviousEditions */
 /*#region Speakers */
 .home-speakers {
-  a {
-    text-decoration: none;
-  }
 
-  .title-wrapper {
-    margin-bottom: 100px;
-    margin-top: 200px;
-  }
+  .speaker-card {
+    .speaker-information {
+      padding-left: 3rem;
+      padding-bottom: 1rem;
+      img {
+        padding: 0;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        display: block;
+      }
 
-  .speakers-title-1 {
-    cursor: default;
-    z-index: 2;
-    border: 0;
-    transform: rotate(2.233deg);
-    flex-shrink: 0;
-    color: base.$WhiteGray;
-    background: base.$Green;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 88px;
-  }
+      > div:first-child {
+        position: relative;
+        overflow: hidden;
 
-  .speakers-title-2 {
-    cursor: default;
-    z-index: 1;
-    border: 0;
-    margin-top: 10px;
-    transform: rotate(-3.07deg);
-    flex-shrink: 0;
-    background: base.$WhiteGray;
-    color: base.$Green;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 88px;
-  }
+        &::before {
+          content: '';
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+        }
+      }
+    }
 
-  .speaker-name {
-    font-family: Nunito;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
+    &:nth-child(1) .speaker-information > div:first-child::before {
+      background-color: rgba(base.$LightPurple, 0.4); // filtro card 1
+    }
 
-  .speaker-function {
-    margin-left: -60px;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border: 0;
-    width: 120px;
-    height: 30px;
-    position: absolute;
-  }
+    &:nth-child(2) .speaker-information > div:first-child::before {
+      background-color: rgba(base.$Green, 0.4); // filtro card 2
+    }
 
-  .keynote {
-    color: base.$LightBlue;
+    &:nth-child(3) .speaker-information > div:first-child::before {
+      background-color: rgba(base.$Orange, 0.4); // filtro card 3
+    }
   }
-
-  .talk {
-    color: base.$Green;
-  }
-
-  .workshop {
-    color: base.$WhiteGray;
-  }
-
-  .keynote-button {
-    background: base.$LightBlue;
-    color: base.$Green;
-  }
-
-  .talk-button {
-    background: base.$Green;
-    color: base.$DarkBlue;
-  }
-
-  .workshop-button {
-    background: base.$WhiteGray;
-    color: base.$LightBlue;
-  }
-
   .carousel-item {
     text-align: center;
   }
@@ -1036,15 +967,18 @@
 
   .carousel-control-prev,
   .carousel-control-next {
-    width: 5%;
+    width: auto;
+    opacity: 1;
   }
 
-  .carousel-control-prev {
-    margin-left: -50px;
-  }
-
-  .carousel-control-next {
-    margin-right: -50px;
+  .speakers-carousel-controls .carousel-control-prev,
+  .speakers-carousel-controls .carousel-control-next {
+    position: static;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.25rem;
+    border-radius: 999px;
   }
 
   @media(max-width: 992px) {
@@ -1101,109 +1035,17 @@
 /*#endregion Speakers */
 /*region HomeImportantDates */
 .home-important-dates {
-  .button-1 {
-    background: base.$WhiteGray;
-    color: base.$LightBlue;
-    transform: rotate(2.233deg);
-    border: 0;
-    cursor: default;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 88px; /* 110% */
-    margin-left: -250px;
-    margin-top: 100px;
-    padding: 5px 30px 5px 30px;
-    z-index: 10;
+  h4 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      justify-self: end;
   }
-
-  .button-2 {
-    background: base.$LightBlue;
-    color: base.$WhiteGray;
-    transform: rotate(-3.07deg);
-    border: 0;
-    cursor: default;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 88px; /* 110% */
-    margin-left: 350px;
-    margin-top: -50px;
-    margin-bottom: 100px;
-    padding: 5px 30px 5px 30px;
-    z-index: 1;
-  }
-
   img {
     position: absolute;
     right: 0;
     top: 0;
     z-index: 0;
     opacity: 0.7;
-  }
-
-  .button {
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 50px;
-    z-index: 1;
-    position: relative;
-    border: 0;
-    cursor: default !important;
-    padding: 10px 20px 10px 20px;
-    width: 200px;
-  }
-
-  //background: base.$Green;
-  //color: base.$LightBlue;
-  //color: base.$Green;
-
-  .text {
-    font-family: Nunito;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: -20px;
-    margin-bottom: 100px;
-    z-index: 1;
-    position: relative;
-  }
-
-  .color-green {
-    color: base.$Green;
-  }
-
-  .color-blue {
-    color: base.$LightBlue;
-  }
-
-  .color-white {
-    color: base.$WhiteGray;
-  }
-
-  .color-dark-blue {
-    color: base.$DarkBlue;
-  }
-
-  .background-green {
-    background: base.$Green;
-  }
-
-  .background-blue {
-    background: base.$LightBlue;
-  }
-
-  .background-white {
-    background: base.$WhiteGray;
   }
 
   .important-date-link {
@@ -1263,101 +1105,11 @@
 /*endregion HomeImportantDates */
 /*#region Sponsors */
 .home-sponsors {
-  margin-bottom: 200px;
-
-  .sponsors-title {
-    border: 0;
-    color: base.$WhiteGray;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 88px;
-    background: base.$LightBlue;
-    transform: rotate(2.233deg);
-    margin-top: 100px;
-    cursor: default !important;
-  }
-
-  .diamond {
-    border: 0;
-    cursor: default;
-    color: base.$LightBlue;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background: base.$Green;
-    padding: 10px 0 10px 0;
-    width: 170px;
-    margin: 100px 0 80px 0;
-  }
-
-  .platinum {
-    border: 0;
-    cursor: default;
-    color: base.$LightBlue;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background: base.$WhiteGray;
-    padding: 10px 0 10px 0;
-    width: 170px;
-    margin: 80px 0 80px 0;
-  }
-
-  .silver {
-    border: 0;
-    cursor: default;
-    color: base.$DarkBlue;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background: base.$WhiteGray;
-    padding: 10px 0 10px 0;
-    width: 170px;
-    margin: 80px 0 80px 0;
-  }
-
-  .grants {
-    border: 0;
-    cursor: default;
-    color: base.$Green;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background: base.$LightBlue;
-    padding: 10px 0 10px 0;
-    width: 170px;
-    margin: 80px 0 80px 0;
-  }
-
-  .organizer {
-    border: 0;
-    cursor: default;
-    color: base.$DarkBlue;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background: base.$Green;
-    padding: 10px 0 10px 0;
-    width: 170px;
-    margin: 80px 0 80px 0;
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0;
   }
 
   img {
@@ -1385,45 +1137,10 @@
 /*#endregion Sponsors */
 /*#region HomeFreeTickets */
 .home-free-tickets {
-  margin-top: 100px;
-  margin-bottom: 150px;
 
   .free-tickets-width {
     max-width: 475px;
   }
-
-  .free-tickets-section-title-1 {
-    margin-left: -100px;
-    transform: rotate(-2.517deg);
-    background: base.$LightBlue;
-    border: 0;
-    color: base.$Green;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 88px;
-    cursor: default;
-  }
-
-
-  .free-tickets-section-title-2 {
-    margin-top: -30px;
-    margin-left: 300px;
-    transform: rotate(1.444deg);
-    background: base.$Green;
-    border: 0;
-    color: base.$LightBlue;
-    text-align: center;
-    font-family: "Share Tech";
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 88px;
-    cursor: default;
-  }
-
 
   .ticket-card-green {
     border: 2px solid base.$Green;
@@ -1434,52 +1151,30 @@
 
   }
 
-  .ticket-card-blue {
-    border: 2px solid base.$LightBlue;
-
+  .btn {
+    text-align-last: justify;
   }
-
-  .card-green {
-    color: base.$Green;
-  }
-
-  .card-white {
-    color: base.$WhiteGray;
-  }
-
-  .card-blue {
-    color: base.$LightBlue;
-  }
-
-  h4 {
-    font-family: "Share Tech";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-  }
-
-  .description {
-    font-family: Nunito;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 80px;
-    text-align: left;
-    padding: 0 10px 0 10px;
+    h3 {
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      color: base.$Orange;
+    }
+  p {
+    color: base.$purple;
   }
 
   a {
-    color: white;
     text-decoration: none;
   }
 
   .row > * {
     padding-bottom: 2rem !important;
   }
-
+  .width-fit-content{
+    width: fit-content;
+  }
   .tickets-call-to-action {
     a {
       color: #1F2B37;
@@ -1489,7 +1184,6 @@
     text-align: center;
     position: absolute;
     margin-top: -5px;
-    font-family: "Share Tech";
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -1556,9 +1250,7 @@
       line-height: 50px;
       margin-top: -10px;
     }
-    .description {
-      font-size: 20px;
-    }
+
     h4 {
       font-size: 36px;
     }
@@ -1586,3 +1278,6 @@
 
 /*#endregion HomeFreeTickets*/
 
+  .card-width {
+    max-width: 475px;
+  }

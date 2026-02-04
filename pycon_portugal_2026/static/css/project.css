@@ -1839,6 +1839,12 @@ p.small-text {
 
 /*#endregion HomeTickets*/
 /*#region HomePreviousEditions */
+.home-previous-editions {
+  background-image: url("../images/home/previous_editions_filler.png");
+  background-size: 100% 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
 .home-previous-editions .button-1 {
   background: #F9F9F9;
   -webkit-transform: rotate(-3.163deg);

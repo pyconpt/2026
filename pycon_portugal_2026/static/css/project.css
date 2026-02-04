@@ -2263,7 +2263,7 @@ p.small-text {
   font-size: 32px;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: bolder;
   line-height: normal;
   color: #FF8C64;
 }

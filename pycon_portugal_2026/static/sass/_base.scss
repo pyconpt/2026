@@ -14,10 +14,6 @@ $DarkBlue: $purple;
 $LightBlue: #5076F6;
 $WhiteGray: #F9F9F9;
 
-$bgPurple: #0a042c;
-$purple: #9747ff;
-$lightPurple: #ff00ff;
-
 $bgWhite: #FEFEFC;
 $BgBlue: #0077c9;
 $BgBlack: #2c2c2c;
@@ -121,7 +117,7 @@ a:hover {
   background-color: $purple;
 }
 .bg-light-purple {
-  background-color: $BgLightPurple;
+  background-color: $LightPurple;
 }
 .bg-green {
   background-color: $Green;

@@ -4,8 +4,10 @@
 
 
 .header {
-  background-color: base.$purple;
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   .navbar-brand {
     img {
       max-width: 80px;
@@ -47,19 +49,22 @@
 
   ul {
     padding: 0.7rem;
+
     li {
-        font-size: 16px;
-      }
+      font-size: 16px;
+    }
+
     a,
     a:hover {
       color: $Green;
-        text-transform: uppercase;
+      text-transform: uppercase;
+
       &.dropdown-item {
-        color: $Green ;
+        color: $Green;
 
         &:hover {
           background-color: $Green;
-            color: $purple;
+          color: $purple;
         }
 
         a {

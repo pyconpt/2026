@@ -835,7 +835,10 @@ p.small-text {
 }
 
 .header {
-  background-color: #9747ff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .header .navbar-brand img {
   max-width: 80px;

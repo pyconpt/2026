@@ -1953,6 +1953,9 @@ p.small-text {
   padding: 0 20px;
   margin-bottom: 100px;
 }
+.home-previous-editions .editions-grid a {
+  text-decoration: none;
+}
 .home-previous-editions .grid-item {
   position: relative;
 }

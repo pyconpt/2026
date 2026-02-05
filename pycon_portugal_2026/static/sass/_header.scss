@@ -106,3 +106,10 @@
     border: unset;
   }
 }
+
+/* home header */
+body:not(.home) {
+  .inner-body {
+    padding-top: var(--header-height, 100px);
+  }
+}

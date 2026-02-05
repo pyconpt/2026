@@ -14,6 +14,14 @@ document.addEventListener("DOMContentLoaded", function () {
         icon1.style.display = "inline";
         icon2.style.display = "none";
     });
+    function setHeaderHeightVar(){
+        var header = document.querySelector('.header');
+        if(!header) return;
+        var h = header.getBoundingClientRect().height;
+        document.documentElement.style.setProperty('--header-height', h + 'px');
+    }
+      window.addEventListener('DOMContentLoaded', setHeaderHeightVar);
+      window.addEventListener('resize', setHeaderHeightVar);
 });
 
 /* Other */

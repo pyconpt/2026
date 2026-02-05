@@ -930,6 +930,11 @@ p.small-text {
     border: unset;
   }
 }
+/* home header */
+body:not(.home) .inner-body {
+  padding-top: var(--header-height, 100px);
+}
+
 html,
 body {
   overflow-x: hidden;

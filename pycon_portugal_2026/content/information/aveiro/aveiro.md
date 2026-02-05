@@ -1,6 +1,6 @@
 layout: simple
 
-## Aveiro
+# Aveiro
 
 [//]: # (In this second edition, we had a record number of submissions: 113. 🎉)
 
@@ -20,9 +20,8 @@ Located next to the Ria de Aveiro, a unique coastal lagoon of high ecological an
 
 
 <br>
-<iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24912.908577816386!2d-9.353855528246527!3d38.69223538957922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec8cf16a1ea19%3A0xd614fc3dd57074fe!2sCarcavelos!5e0!3m2!1spt-PT!2spt!4v1740595497767!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<iframe width="560" height="600" style="width: 100%" src="https://www.youtube.com/embed/gbc1CzHKuKU?si=2NZQJ9dmkk8H15OP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<hr class="green-line">
+<iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44314.91621046944!2d-8.679506609636329!3d40.634738154699654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aa4e1bda2b%3A0xd70b976749475485!2sUniversidade%20de%20Aveiro!5e0!3m2!1spt-PT!2spt!4v1770293118379!5m2!1spt-PT!2spt" width="560" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 <br>
 ## Explore the city
 <div class="swiper-buttons d-none d-sm-block">
@@ -39,39 +38,61 @@ Located next to the Ria de Aveiro, a unique coastal lagoon of high ecological an
 
 <div markdown="1" class="swiper-slide">
 
-![CASCAIS_1](/static/images/cascais/cascais_1.jpg)
+![aveiro_1](/static/images/aveiro/aveiro_1.jpeg)
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![CASCAIS_"](/static/images/cascais/cascais_2.jpg)
+![aveiro_2"](/static/images/aveiro/aveiro_2.jpeg)
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![CASCAIS_3](/static/images/cascais/cascais_3.jpg)
+![aveiro_3](/static/images/aveiro/aveiro_3.jpeg)
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![CASCAIS_4](/static/images/cascais/cascais_4.jpg)
+![aveiro_4](/static/images/aveiro/aveiro_4.jpeg)
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![CASCAIS_5](/static/images/cascais/cascais_5.jpg)
+![aveiro_5](/static/images/aveiro/aveiro_5.jpeg)
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![CASCAIS_6](/static/images/cascais/cascais_6.jpg)
+![aveiro_6](/static/images/aveiro/aveiro_6.jpeg)
 
 </div>
+
+<div markdown="1" class="swiper-slide">
+
+![aveiro_7](/static/images/aveiro/aveiro_7.jpeg)
+
+</div>
+<div markdown="1" class="swiper-slide">
+
+![aveiro_8](/static/images/aveiro/aveiro_8.jpeg)
+
+</div>
+<div markdown="1" class="swiper-slide">
+
+![aveiro_9](/static/images/aveiro/aveiro_9.jpeg)
+
+</div>
+<div markdown="1" class="swiper-slide">
+
+![aveiro_10](/static/images/aveiro/aveiro_10.jpeg)
+
+</div>
+
 </div>
 
 </div>
@@ -197,3 +218,16 @@ Absolutely — beaches, parks, and safe public spaces abound.
 - Excellent cost-quality balance for attendees and sponsors
 
 ### See you in Aveiro for PyCon Portugal 2026 🇵🇹🐍
+ 
+### Photo Credits
+
+001: Aveiro Municipality
+002: City Guide Porto
+003: Revigorate
+004: Winalis.com
+005: Turismo do Centro
+006: Aveiro 2024
+007: European Innovation Council
+008: Mussel-inn.com
+009: Delishglobe.com
+010: Agoraaveiro.org

@@ -1,7 +1,7 @@
 // homepage
 
 @use "base";
-
+.home {
 /*#region HomeHero*/
 .home-hero {
   background-color: base.$purple;
@@ -76,56 +76,6 @@
     width: 90%;
   }
 
-  .button-1 {
-    transform: rotate(-2.639deg);
-    color: base.$DarkBlue;
-    background: base.$LightBlue;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 10px 20px 10px 20px;
-    z-index: 1;
-  }
-
-  .button-2 {
-    transform: rotate(3.283deg);
-    color: base.$DarkBlue;
-    background: base.$WhiteGray;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 10px 50px 10px 50px;
-    margin-left: -20px;
-    margin-top: -15px;
-    z-index: 10;
-  }
-
-  .button-3 {
-    transform: rotate(-0.767deg);
-    color: base.$LightBlue;
-    background: base.$Green;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 10px 70px 10px 70px;
-    margin-top: 10px;
-    z-index: 1;
-  }
-
-  .button-4 {
-    transform: rotate(-5.44deg);
-    background: base.$LightBlue;
-    color: base.$WhiteGray;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-    padding: 10px 50px 10px 50px;
-    z-index: 10;
-  }
 
   @media(max-width: 1400px) {
     .blue {
@@ -160,21 +110,6 @@
     }
     .button-wrapper-mobile {
       display: block !important;
-    }
-  }
-  @media(max-width: 500px) {
-    .button-1 {
-      font-size: 38px;
-    }
-    .button-2 {
-      font-size: 40px;
-    }
-    .button-3 {
-      font-size: 40px;
-      padding: 10px 50px 10px 50px;
-    }
-    .button-4 {
-      font-size: 35px;
     }
   }
 }
@@ -248,59 +183,6 @@
     .button-wrapper {
       position: absolute;
       margin-top: -20%;
-
-      .button-1 {
-        position: absolute;
-        cursor: default;
-        border: 0;
-        transform: rotate(-9.274deg);
-        background: #5076F6;
-        color: #000;
-        text-align: center;
-            font-size: 80px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 88px;
-        margin-left: 210px;
-        padding: 0 50px 0 50px;
-        z-index: 10;
-      }
-
-      .button-2 {
-        position: absolute;
-        cursor: default;
-        border: 0;
-        background: #F9F9F9;
-        transform: rotate(-2.725deg);
-        color: #5076F6;
-        text-align: center;
-            font-size: 64px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 64px;
-        padding: 0 100px 0 100px;
-        margin-left: 320px;
-        margin-top: 80px;
-        z-index: 1;
-      }
-
-      .button-3 {
-        position: absolute;
-        cursor: default;
-        border: 0;
-        background: #1F2B37;
-        transform: rotate(5.584deg);
-        color: #F9F9F9;
-        text-align: center;
-            font-size: 80px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 80px;
-        padding: 0 50px 0 50px;
-        margin-left: 370px;
-        margin-top: 145px;
-        z-index: 0;
-      }
     }
   }
 
@@ -336,49 +218,6 @@
     }
   }
 
-  @media(max-width: 1400px) {
-    .button-wrapper {
-      .button-1 {
-        font-size: 65px !important;
-        line-height: 65px !important;
-        margin-left: 200px !important;
-      }
-
-      .button-2 {
-        font-size: 50px !important;
-        line-height: 50px !important;
-        margin-left: 250px !important;
-        margin-top: 60px !important;
-      }
-
-      .button-3 {
-        font-size: 65px !important;
-        line-height: 65px !important;
-        margin-left: 270px !important;
-        margin-top: 110px !important;
-
-      }
-    }
-  }
-  @media(max-width: 1200px) {
-    .button-wrapper {
-      .button-1 {
-        font-size: 50px !important;
-        padding: 0 50px 0 50px !important;
-      }
-
-      .button-2 {
-        font-size: 40px !important;
-        padding: 0 80px 0 80px !important;
-      }
-
-      .button-3 {
-        font-size: 50px !important;
-        padding: 0 50px 0 50px !important;
-
-      }
-    }
-  }
   @media(max-width: 992px) {
     margin-top: 100px;
     .left {
@@ -422,74 +261,9 @@
     .info-desktop {
       display: none;
     }
-    .button-wrapper {
-      margin-top: -40% !important;
-      margin-left: 20% !important;
 
-      .button-1 {
-        font-size: 50px !important;
-        padding: 0 50px 0 50px !important;
-      }
-
-      .button-2 {
-        font-size: 40px !important;
-        padding: 0 80px 0 80px !important;
-      }
-
-      .button-3 {
-        font-size: 50px !important;
-        padding: 0 50px 0 50px !important;
-
-      }
-    }
-  }
-  @media(max-width: 768px) {
-    .button-wrapper {
-      margin-left: 10% !important;
-
-      .button-1 {
-        font-size: 40px !important;
-        padding: 0 80px 0 80px !important;
-      }
-
-      .button-2 {
-        font-size: 35px !important;
-        padding: 0 120px 0 120px !important;
-      }
-
-      .button-3 {
-        font-size: 40px !important;
-        padding: 0 80px 0 80px !important;
-
-      }
-    }
   }
 
-  @media(max-width: 600px) {
-    .button-wrapper {
-      margin-left: -5% !important;
-
-      .button-1 {
-        font-size: 30px !important;
-        padding: 0 50px 0 50px !important;
-        line-height: 50px !important;
-      }
-
-      .button-2 {
-        font-size: 30px !important;
-        padding: 0 80px 0 80px !important;
-        margin-top: 35px !important;
-        line-height: 50px !important;
-      }
-
-      .button-3 {
-        font-size: 30px !important;
-        padding: 0 50px 0 50px !important;
-        line-height: 50px !important;
-        margin-top: 80px !important;
-      }
-    }
-  }
   @media(max-width: 500px) {
     .left {
       .ticket {
@@ -503,59 +277,15 @@
         font-size: 20px;
       }
     }
-    .button-wrapper {
-      margin-left: -15% !important;
-      margin-top: -50% !important;
-
-      .button-1 {
-        font-size: 30px !important;
-        padding: 0 50px 0 50px !important;
-      }
-
-      .button-2 {
-        font-size: 30px !important;
-        padding: 0 80px 0 80px !important;
-      }
-
-      .button-3 {
-        font-size: 30px !important;
-        padding: 0 50px 0 50px !important;
-
-      }
-    }
   }
-  @media(max-width: 400px) {
-    .button-wrapper {
-      margin-left: -30% !important;
-    }
-  }
+
   @media(max-width: 370px) {
     .info-mobile-2 {
       .xaxa-text {
         font-size: 16px;
       }
     }
-    .button-wrapper {
-      margin-left: -35% !important;
 
-      .button-1 {
-        font-size: 25px !important;
-        padding: 0 40px 0 40px !important;
-        line-height: 40px !important;
-      }
-
-      .button-2 {
-        font-size: 25px !important;
-        padding: 0 70px 0 70px !important;
-        line-height: 40px !important;
-      }
-
-      .button-3 {
-        font-size: 25px !important;
-        padding: 0 40px 0 40px !important;
-        line-height: 40px !important;
-      }
-    }
   }
 
 }
@@ -670,7 +400,23 @@
 
     filter: brightness(90%);
   }
-
+    .l-purple-btn {
+    background-color: base.$LightPurple;
+    color: base.$Green;
+    border-width: 3px;
+    border-color: base.$LightPurple;
+    border-style: solid;
+  }
+  .l-purple-btn:hover {
+    background-color: base.$Green;
+    color: base.$purple;
+    border-width: 3px;
+    border-style: solid;
+    border-color: base.$purple;
+    a {
+      color: base.$purple;
+    }
+  }
   @media(max-width: 1200px) {
     .tickets-call-to-action {
       font-size: 30px;
@@ -722,6 +468,7 @@
 }
 
 
+
 /*#endregion HomeTickets*/
 /*#region HomePreviousEditions */
 .home-previous-editions {
@@ -730,57 +477,12 @@
   background-position: center top;
   background-repeat: no-repeat;
 
-  .button-1 {
-    background: base.$WhiteGray;
-    transform: rotate(-3.163deg);
-    color: base.$LightBlue;
-    text-align: center;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 88px;
-    border: 0;
-    cursor: default !important;
-    padding: 10px 50px 10px 50px;
-    z-index: 1;
-    margin-top: 150px;
-  }
 
-  .button-2 {
-    background: base.$Green;
-    transform: rotate(0.688deg);
-    color: base.$DarkBlue;
-    text-align: center;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 88px;
-    margin-left: -350px;
-    margin-top: -10px;
-    border: 0;
-    cursor: default !important;
-    padding: 10px 20px 10px 20px;
-    z-index: 100;
-  }
-
-  .button-3 {
-    background: base.$LightBlue;
-    transform: rotate(-5.183deg);
-    color: base.$Green;
-    text-align: center;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 88px; /* 110% */
-    margin-left: 450px;
-    margin-top: -80px;
-    margin-bottom: 100px;
-    border: 0;
-    cursor: default !important;
-    padding: 10px 80px 10px 80px;
-    z-index: 10;
-
-  }
+a:hover {
+  color: #CAFE41;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
 
   .editions-grid {
     display: grid;
@@ -823,23 +525,6 @@
     grid-column: span 1;
   }
 
-  @media(max-width: 1024px) {
-    .button-1 {
-      font-size: 55px;
-      line-height: 55px;
-    }
-    .button-2 {
-      font-size: 55px;
-      line-height: 55px;
-      margin-left: -10px;
-    }
-    .button-3 {
-      font-size: 55px;
-      line-height: 55px;
-      margin-top: -5px;
-      margin-left: 100px;
-    }
-  }
   @media (max-width: 992px) {
     .editions-grid {
       grid-template-columns: repeat(1, 1fr);
@@ -848,57 +533,6 @@
       grid-column: span 1;
       max-width: 326px;
       margin: 0 auto;
-    }
-    .button-1 {
-      font-size: 48px;
-      line-height: 48px;
-    }
-    .button-2 {
-      font-size: 48px;
-      line-height: 48px;
-      margin-left: -10px;
-    }
-    .button-3 {
-      font-size: 48px;
-      line-height: 48px;
-      margin-top: -5px;
-      margin-left: 150px;
-    }
-  }
-  @media(max-width: 500px) {
-    .button-1 {
-      font-size: 40px;
-      line-height: 40px;
-      margin-top: 0;
-    }
-    .button-2 {
-      font-size: 40px;
-      line-height: 40px;
-      margin-left: -10px;
-    }
-    .button-3 {
-      font-size: 40px;
-      line-height: 40px;
-      margin-top: -5px;
-      margin-left: 100px;
-      padding: 10px 50px 10px 50px;
-    }
-  }
-  @media(max-width: 400px) {
-    .button-1 {
-      font-size: 30px;
-      line-height: 30px;
-    }
-    .button-2 {
-      font-size: 25px;
-      line-height: 30px;
-      margin-left: -10px;
-    }
-    .button-3 {
-      font-size: 30px;
-      line-height: 30px;
-      margin-top: -5px;
-      margin-left: 50px;
     }
   }
 
@@ -1073,41 +707,9 @@
         font-size: 20px;
       }
     }
-    .button-1 {
-      font-size: 48px;
-      line-height: 48px;
-      margin: 0 0 0 -90px;
-    }
-    .button-2 {
-      font-size: 48px;
-      line-height: 48px;
-      margin: 0 -150px 100px 0;
-    }
+
   }
-  @media(max-width: 500px) {
-    .button-1 {
-      font-size: 40px;
-      line-height: 40px;
-      margin: 0 0 0 -90px;
-    }
-    .button-2 {
-      font-size: 40px;
-      line-height: 40px;
-      margin: 0 -150px 100px 0;
-    }
-  }
-  @media(max-width: 400px) {
-    .button-1 {
-      font-size: 30px;
-      line-height: 30px;
-      margin: 0 0 0 -90px;
-    }
-    .button-2 {
-      font-size: 30px;
-      line-height: 30px;
-      margin: 0 -150px 100px 0;
-    }
-  }
+
 }
 
 /*endregion HomeImportantDates */
@@ -1289,3 +891,74 @@
   .card-width {
     max-width: 475px;
   }
+
+
+  .l-purple-btn {
+    background-color: base.$LightPurple;
+    color: base.$Green;
+    border-width: 3px;
+    border-color: base.$LightPurple;
+    border-style: solid;
+  }
+  .l-purple-btn:hover {
+    background-color: base.$Green;
+    color: base.$LightPurple;
+    border-width: 3px;
+    border-style: solid;
+    border-color: base.$LightPurple;
+    a {
+      color: base.$LightPurple;
+    }
+  }
+  .purple-btn {
+    background-color: base.$purple;
+    color: base.$Green;
+    border-width: 3px;
+    border-color: base.$purple;
+    border-style: solid;
+  }
+  .purple-btn:hover {
+    background-color: base.$Green;
+    color: base.$purple;
+    border-width: 3px;
+    border-style: solid;
+    a {
+      color: base.$purple;
+    }
+  }
+  .green-btn {
+    background-color: base.$Green;
+    color: base.$LightPurple;
+    border-width: 3px;
+    border-color: base.$Green;
+    border-style: solid;
+    a {
+      color: base.$LightPurple;
+    }
+  }
+  .green-btn:hover {
+    background-color: base.$LightPurple;
+    color: base.$Green;
+    border-width: 3px;
+    border-style: solid;
+    a {
+      color: base.$Green;
+    }
+  }
+  .orange-btn {
+    background-color: base.$Orange;
+    color: base.$Green;
+    border-width: 3px;
+    border-color: base.$Orange;
+    border-style: solid;
+  }
+  .orange-btn:hover {
+    background-color: base.$purple;
+    color: base.$Orange;
+    border-width: 3px;
+    border-style: solid;
+    a {
+      color: base.$Orange;
+    }
+  }
+}

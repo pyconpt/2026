@@ -1739,6 +1739,10 @@ p.small-text {
   inset: 0;
   pointer-events: none;
 }
+.home .home-speakers .speaker-card p {
+  text-align: left;
+  font-weight: 600;
+}
 .home .home-speakers .speaker-card:nth-child(1) .speaker-information > div:first-child::before {
   background-color: rgba(185, 127, 248, 0.4);
 }
@@ -1849,6 +1853,18 @@ p.small-text {
 }
 .home .home-important-dates .important-date-link {
   text-decoration: unset;
+}
+.home .home-important-dates .date-border {
+  border-right: 2px solid #CAFE41;
+  padding-right: 20px;
+}
+.home .home-important-dates .top-padding {
+  padding-top: 80px;
+  padding-top: 5rem;
+}
+.home .home-important-dates .bottom-padding {
+  padding-bottom: 80px;
+  padding-bottom: 5rem;
 }
 @media (max-width: 992px) {
   .home .home-important-dates img {

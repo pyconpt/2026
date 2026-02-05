@@ -117,42 +117,25 @@ Universidade de Aveiro, 3810-193
 
 <div markdown="1" class="swiper-slide">
 
-![NOVA_1](/static/images/nova_sbe/nova_1.jpg)
+![UA_1](/static/images/universidade_aveiro/u_aveiro_1.jpeg)
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![NOVA_2](/static/images/nova_sbe/nova_2.jpg)
+![UA_2](/static/images/universidade_aveiro/u_aveiro_2.jpeg)
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![NOVA_3](/static/images/nova_sbe/nova_3.jpg)
+![UA_2](/static/images/universidade_aveiro/u_aveiro_3.jpeg)
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![NOVA_4](/static/images/nova_sbe/nova_4.jpg)
-
-</div>
-
-<div markdown="1" class="swiper-slide">
-
-![NOVA_5](/static/images/nova_sbe/nova_5.jpg)
-
-</div>
-
-<div markdown="1" class="swiper-slide">
-
-![NOVA_6](/static/images/nova_sbe/nova_6.jpg)
-
-</div>
-<div markdown="1" class="swiper-slide">
-
-![NOVA_7](/static/images/nova_sbe/nova_7.jpg)
+![UA_4](/static/images/universidade_aveiro/u_aveiro_4.jpeg)
 
 </div>
 

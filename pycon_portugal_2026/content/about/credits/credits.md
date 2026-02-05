@@ -10,6 +10,7 @@ This list of individuals is still growing. Nonetheless, these are our sincerest 
 * Felipe Valverde
 * Frederico Rodrigues
 * Gonçalo Sousa
+* Isabella Colombarolli
 * Julius Boakye
 * Luis Vaz
 * Miguel Magalhães

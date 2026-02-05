@@ -14,9 +14,9 @@ layout: simple
 [//]: #
 [//]: #
 
-<a href="https://pretalx.evolutio.pt/pycon-portugal-2026/featured/" target="_blank">View the featured talks on Pretalx</a>
+<!-- <a href="https://pretalx.evolutio.pt/pycon-portugal-2026/featured/" target="_blank">View the featured talks on Pretalx</a>
 
-<div id="pretalx-widget-container" style="margin-top: 20px;">
+ <div id="pretalx-widget-container" style="margin-top: 20px;">
   <script
     type="text/javascript"
     src="https://pretalx.evolutio.pt/djangocon-europe-2026/schedule/widget/v2.en.js"
@@ -77,6 +77,8 @@ style="--pretalx-clr-primary: #36bc5b; --pretalx-clr-background: # --light-green
 
    <!-- <hr class="blue-line"> -->
 
+<br>
+<br>
 <br>
 <br>
 <br>

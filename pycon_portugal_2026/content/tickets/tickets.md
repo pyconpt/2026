@@ -26,7 +26,7 @@ Follow us on social media for up to date information - see footer below!
 [//]: # (## Tickets)
 
 [//]: # ()
-[//]: # (**We have Full Pass tickets for the 3 days of Talks and Workshops &#40;September 7th, 8th and 9th&#41;, or Daily Pass tickets for a specific day of Talks or Workshops. Check out the Early Bird special prices!.** Don't forget to follow us on Twitter @PyConPT for the latest up-to-date information!)
+[//]: # (**We have Full Pass tickets for the 3 days of Talks and Workshops &#40;September 7th, 8th and 9th&#41;, or Daily Pass tickets for a specific day of Talks or Workshops. Check out the Early Bird special prices!.** Don't forget to follow us on X @PyConPT for the latest up-to-date information!)
 
 [//]: # ()
 [//]: # (If you are from a marginalised or under-represented group, and you are not able to afford a ticket, you should apply for a grant. **Please consider making an extra donation** to help us offer grants to people from marginalised or under-represented groups.)

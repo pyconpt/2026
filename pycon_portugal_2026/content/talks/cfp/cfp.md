@@ -21,7 +21,7 @@ layout: simple
 [//]: # ()
 [//]: # (**Stay Connected**)
 
-[//]: # (For the latest updates, remember to follow us on Twitter [PyCon Portgual]&#40;https://x.com/PyConPT&#41; and check our official website regularly. We'll be sharing more information about the conference schedule, speakers, and other exciting activities planned for PyCon Portgual 2026 in ViAltice Forum, Braga.)
+[//]: # (For the latest updates, remember to follow us on X [PyCon Portgual]&#40;https://x.com/PyConPT&#41; and check our official website regularly. We'll be sharing more information about the conference schedule, speakers, and other exciting activities planned for PyCon Portgual 2026 in ViAltice Forum, Braga.)
 
 [//]: # ()
 [//]: # (**Questions or Suggestions?**)
@@ -35,7 +35,7 @@ layout: simple
 [//]: # (We'll see you in Braga!)
 
 [//]: # ()
-[//]: # (If you have any questions, please do not hesitate to contact us at [content@pycon.pt]&#40;mailto:content@pycon.pt&#41;. Don't forget to follow us on Twitter [@PyCon PT]&#40;https://x.com/PyConPT&#41;{:target="\_blank"} for the latest up to date information!)
+[//]: # (If you have any questions, please do not hesitate to contact us at [content@pycon.pt]&#40;mailto:content@pycon.pt&#41;. Don't forget to follow us on X [@PyCon PT]&#40;https://x.com/PyConPT&#41;{:target="\_blank"} for the latest up to date information!)
 
 
 ## Call for Participation - Closed
@@ -140,7 +140,7 @@ We’d like to make our reviewing process and guidelines transparent to every su
 
 Moreover, we might prioritize speakers from an under-represented or marginalised group in order to increase the social impact of the conference.
 
-We will document our selection process on this website and announce it via [Twitter](https://x.com/PyConPT){:target="\_blank"}.
+We will document our selection process on this website and announce it via [X](https://x.com/PyConPT){:target="\_blank"}.
 
 <hr class="blue-line">
 

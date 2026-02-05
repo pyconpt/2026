@@ -5,13 +5,13 @@ layout: simple
 
     <div>
       <div class="col-12 justify-content-center d-flex">
-        <button class="sponsors-title">SPONSORS</button>
+        <h1>SPONSORS</h1>
       </div>
     </div>
 
     <div>
       <div class="col-12 justify-content-center d-flex">
-        <button class="platinum">Silver</button>
+        <h2 class="platinum">Silver</h2>
       </div>
       <div class="d-flex justify-content-center mobile-sponsor-images">
         <a href="https://intellias.com/" target="_blank">
@@ -21,7 +21,7 @@ layout: simple
     </div>
 
     <div class="col-12 justify-content-center d-flex">
-      <button class="diamond">Bronze</button>
+      <h2 class="diamond">Bronze</h2>
     </div>
     <div class="d-flex justify-content-center mobile-sponsor-images">
       <a href="https://openteams.com/" target="_blank">
@@ -31,7 +31,7 @@ layout: simple
 
     <div>
       <div class="col-12 justify-content-center d-flex">
-        <button class="grants">GRANTS</button>
+        <h2 class="grants">GRANTS</h2>
       </div>
       <div class="d-flex justify-content-center mobile-sponsor-images align-items-baseline">
         <a href="https://www.python.org/psf-landing/" target="_blank">
@@ -51,7 +51,7 @@ layout: simple
 
     <div>
       <div class="col-12 justify-content-center d-flex">
-        <button class="diamond">VENUE</button>
+        <h2 class="diamond">VENUE</h2>
       </div>
       <div class="d-flex justify-content-center mobile-sponsor-images">
         <a href="https://www.novasbe.unl.pt/pt/" target="_blank">
@@ -62,7 +62,7 @@ layout: simple
 
     <div>
       <div class="col-12 justify-content-center d-flex">
-        <button class="platinum">PARTNER</button>
+        <h2 class="platinum">PARTNER</h2>
       </div>
       <div class="d-flex justify-content-center mobile-sponsor-images align-items-baseline">
         <a href="https://www.cascais.pt/" target="_blank">
@@ -76,7 +76,7 @@ layout: simple
 
     <div>
       <div class="col-12 justify-content-center d-flex">
-        <button class="organizer">ORGANIZER</button>
+        <h2 class="organizer">ORGANIZER</h2>
       </div>
       <div class="d-flex justify-content-center mobile-sponsor-images mb-5">
         <a href="https://www.evolutio.pt/" target="_blank">

@@ -118,12 +118,22 @@ a:hover {
   border: none;
 }
 
-h2 {
+h1, h2 {
   padding: 0;
   color: #CAFE41;
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 40px;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 56px;
+  font-size: 3.5rem;
 }
 
 h3 {
@@ -345,12 +355,22 @@ a:hover {
   border: none;
 }
 
-h2 {
+h1, h2 {
   padding: 0;
   color: #CAFE41;
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 40px;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 56px;
+  font-size: 3.5rem;
 }
 
 h3 {
@@ -715,12 +735,22 @@ a:hover {
   border: none;
 }
 
-h2 {
+h1, h2 {
   padding: 0;
   color: #CAFE41;
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 40px;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 56px;
+  font-size: 3.5rem;
 }
 
 h3 {
@@ -1044,12 +1074,22 @@ a:hover {
   border: none;
 }
 
-h2 {
+h1, h2 {
   padding: 0;
   color: #CAFE41;
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 40px;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 56px;
+  font-size: 3.5rem;
 }
 
 h3 {
@@ -2501,12 +2541,22 @@ a:hover {
   border: none;
 }
 
-h2 {
+h1, h2 {
   padding: 0;
   color: #CAFE41;
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 40px;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 56px;
+  font-size: 3.5rem;
 }
 
 h3 {

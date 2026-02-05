@@ -11,22 +11,24 @@ layout: simple
 
     <div>
       <div class="col-12 justify-content-center d-flex">
-        <h2 class="platinum">Silver</h2>
+        <h2 class="platinum">Diamond</h2>
       </div>
-      <div class="d-flex justify-content-center mobile-sponsor-images">
-        <a href="https://intellias.com/" target="_blank">
-          <img src="/static/images/sponsors/intellias.svg" alt="Intellias" style="width: 160px">
+      <div class="d-flex justify-content-center mobile-sponsor-images mb-5">
+        <a href="https://www.evolutio.pt/" target="_blank">
+          <img src="/static/images/sponsors/evolutio.svg" alt="Evolutio">
         </a>
       </div>
     </div>
 
-    <div class="col-12 justify-content-center d-flex">
-      <h2 class="diamond">Bronze</h2>
-    </div>
-    <div class="d-flex justify-content-center mobile-sponsor-images">
-      <a href="https://openteams.com/" target="_blank">
-        <img src="/static/images/sponsors/openteams.png" alt="OpenTeams" style="width: 160px">
-      </a>
+    <div>
+      <div class="col-12 justify-content-center d-flex">
+        <h2 class="platinum">Silver</h2>
+      </div>
+      <div class="d-flex justify-content-center mobile-sponsor-images mb-5">
+        <a href="https://www.evolutio.pt/" target="_blank">
+          <img src="/static/images/sponsors/evolutio.svg" alt="Evolutio">
+        </a>
+      </div>
     </div>
 
     <div>
@@ -48,7 +50,7 @@ layout: simple
         </a>
       </div>
     </div>
-
+<!---
     <div>
       <div class="col-12 justify-content-center d-flex">
         <h2 class="diamond">VENUE</h2>
@@ -73,7 +75,7 @@ layout: simple
         </a>
       </div>
     </div>
-
+--->
     <div>
       <div class="col-12 justify-content-center d-flex">
         <h2 class="organizer">ORGANIZER</h2>

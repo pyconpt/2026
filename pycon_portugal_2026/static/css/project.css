@@ -1583,6 +1583,15 @@ p.small-text {
   top: 0;
   z-index: 0;
   opacity: 0.7;
+  height: 100%;
+  width: auto;
+  max-width: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .home-important-dates {
+  /* ensure the container hides any overflow from absolutely positioned image */
+  overflow: hidden;
 }
 .home .home-important-dates .important-date-link {
   text-decoration: unset;

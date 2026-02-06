@@ -409,7 +409,14 @@ a:hover {
     top: 0;
     z-index: 0;
     opacity: 0.7;
+    height: 100%;
+    width: auto;
+    max-width: none;
+    object-fit: cover;
   }
+
+  /* ensure the container hides any overflow from absolutely positioned image */
+  overflow: hidden;
 
   .important-date-link {
     text-decoration: unset;

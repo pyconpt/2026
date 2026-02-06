@@ -922,6 +922,56 @@ p.small-text {
     -webkit-box-align: start !important;
         -ms-flex-align: start !important;
             align-items: flex-start !important;
+    background-color: #8711F6;
+  }
+  .header {
+    /* When the collapsed navbar is shown on small screens, make it occupy the
+       full viewport so the nav feels like an overlay panel. */
+  }
+  .header .navbar-collapse.collapse.show,
+  .header .navbar-collapse.show {
+    position: fixed;
+    inset: 0; /* top:0; right:0; bottom:0; left:0 */
+    width: 100%;
+    height: 100%;
+    background-color: #8711F6;
+    z-index: 1050;
+    padding: 4rem 2rem;
+    overflow-y: auto;
+  }
+  .header {
+    /* Ensure nav items stack vertically and occupy available height */
+  }
+  .header .navbar-collapse .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    padding-top: 1rem;
+  }
+  .header {
+    /* Make toggler visible above the overlay */
+  }
+  .header .navbar-toggler {
+    z-index: 1060;
+  }
+  .header {
+    /* Keep the brand/logo visible above the overlay when menu is open */
+  }
+  .header .navbar-brand {
+    position: relative;
+    z-index: 1065;
   }
 }
 .header ul {

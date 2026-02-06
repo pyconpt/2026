@@ -14,6 +14,27 @@ document.addEventListener("DOMContentLoaded", function () {
         icon1.style.display = "inline";
         icon2.style.display = "none";
     });
+    // Ensure clicking the X icon or any nav link closes the collapse on small screens
+    toggler.addEventListener('click', function (e) {
+        // default bootstrap toggle should handle this, but keep as fallback
+        try {
+            var bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+            if (!bsCollapse) bsCollapse = new bootstrap.Collapse(navbarCollapse, {toggle: false});
+        } catch (err) {
+            // bootstrap not available, ignore
+            return;
+        }
+    });
+
+    // Close the menu when a nav link is clicked (mobile behaviour)
+    document.querySelectorAll('.navbar-collapse .nav-link').forEach(function(link) {
+        link.addEventListener('click', function() {
+            try {
+                var bs = bootstrap.Collapse.getInstance(navbarCollapse);
+                if (bs && window.innerWidth < 992) bs.hide();
+            } catch (e) {}
+        });
+    });
     function setHeaderHeightVar(){
         var header = document.querySelector('.header');
         if(!header) return;

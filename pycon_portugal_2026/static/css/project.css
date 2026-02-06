@@ -30,11 +30,6 @@ body {
   background-color: #8711F6;
 }
 
-p {
-  font-size: 24px;
-  font-size: 1.5rem;
-}
-
 a {
   color: #CAFE41;
 }
@@ -111,6 +106,21 @@ a {
   border-radius: 24px;
   border: none;
 }
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .btn {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 500px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
 
 h1, h2 {
   padding: 0;
@@ -118,11 +128,13 @@ h1, h2 {
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+  text-align: center;
 }
-
-h2 {
-  font-size: 40px;
-  font-size: 2.5rem;
+@media (max-width: 992px) {
+  h1, h2 {
+    font-size: 1.75rem;
+    text-align: start;
+  }
 }
 
 h1 {
@@ -150,6 +162,12 @@ li {
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: 400;
+}
+@media (max-width: 992px) {
+  p,
+  li {
+    font-size: 1.25rem;
+  }
 }
 
 .ptb-10 {
@@ -200,20 +218,6 @@ p.small-text {
   justify-self: center;
 }
 
-@media (max-width: 992px) {
-  h2 {
-    font-size: 60px;
-  }
-}
-@media (max-width: 768px) {
-  h2 {
-    font-size: 50px;
-  }
-  p,
-  li {
-    font-size: 18px;
-  }
-}
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;
@@ -255,11 +259,6 @@ body {
   background-color: #8711F6;
 }
 
-p {
-  font-size: 24px;
-  font-size: 1.5rem;
-}
-
 a {
   color: #CAFE41;
 }
@@ -343,19 +342,36 @@ a {
   border: none;
 }
 
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .btn {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 500px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
 h1, h2 {
   padding: 0;
   color: #CAFE41;
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+  text-align: center;
 }
 
-h2 {
-  font-size: 40px;
-  font-size: 2.5rem;
+@media (max-width: 992px) {
+  h1, h2 {
+    font-size: 1.75rem;
+    text-align: start;
+  }
 }
-
 h1 {
   font-size: 56px;
   font-size: 3.5rem;
@@ -383,6 +399,12 @@ li {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  p,
+  li {
+    font-size: 1.25rem;
+  }
+}
 .ptb-10 {
   padding: 80px 160px !important;
   padding: 5rem 10rem !important;
@@ -432,20 +454,6 @@ p.small-text {
   justify-self: center;
 }
 
-@media (max-width: 992px) {
-  h2 {
-    font-size: 60px;
-  }
-}
-@media (max-width: 768px) {
-  h2 {
-    font-size: 50px;
-  }
-  p,
-  li {
-    font-size: 18px;
-  }
-}
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;
@@ -629,11 +637,6 @@ body {
   background-color: #8711F6;
 }
 
-p {
-  font-size: 24px;
-  font-size: 1.5rem;
-}
-
 a {
   color: #CAFE41;
 }
@@ -717,19 +720,36 @@ a {
   border: none;
 }
 
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .btn {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 500px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
 h1, h2 {
   padding: 0;
   color: #CAFE41;
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+  text-align: center;
 }
 
-h2 {
-  font-size: 40px;
-  font-size: 2.5rem;
+@media (max-width: 992px) {
+  h1, h2 {
+    font-size: 1.75rem;
+    text-align: start;
+  }
 }
-
 h1 {
   font-size: 56px;
   font-size: 3.5rem;
@@ -757,6 +777,12 @@ li {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  p,
+  li {
+    font-size: 1.25rem;
+  }
+}
 .ptb-10 {
   padding: 80px 160px !important;
   padding: 5rem 10rem !important;
@@ -806,20 +832,6 @@ p.small-text {
   justify-self: center;
 }
 
-@media (max-width: 992px) {
-  h2 {
-    font-size: 60px;
-  }
-}
-@media (max-width: 768px) {
-  h2 {
-    font-size: 50px;
-  }
-  p,
-  li {
-    font-size: 18px;
-  }
-}
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;
@@ -962,11 +974,6 @@ body {
   background-color: #8711F6;
 }
 
-p {
-  font-size: 24px;
-  font-size: 1.5rem;
-}
-
 a {
   color: #CAFE41;
 }
@@ -1050,19 +1057,36 @@ a {
   border: none;
 }
 
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .btn {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 500px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
 h1, h2 {
   padding: 0;
   color: #CAFE41;
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+  text-align: center;
 }
 
-h2 {
-  font-size: 40px;
-  font-size: 2.5rem;
+@media (max-width: 992px) {
+  h1, h2 {
+    font-size: 1.75rem;
+    text-align: start;
+  }
 }
-
 h1 {
   font-size: 56px;
   font-size: 3.5rem;
@@ -1090,6 +1114,12 @@ li {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  p,
+  li {
+    font-size: 1.25rem;
+  }
+}
 .ptb-10 {
   padding: 80px 160px !important;
   padding: 5rem 10rem !important;
@@ -1139,20 +1169,6 @@ p.small-text {
   justify-self: center;
 }
 
-@media (max-width: 992px) {
-  h2 {
-    font-size: 60px;
-  }
-}
-@media (max-width: 768px) {
-  h2 {
-    font-size: 50px;
-  }
-  p,
-  li {
-    font-size: 18px;
-  }
-}
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;
@@ -1183,6 +1199,8 @@ p.small-text {
   /*#region HomeHero*/
 }
 .home .home-hero {
+  padding: 160px;
+  padding: 10rem;
   background-color: #8711F6;
   background-image: url("../images/home/hero.png");
   background-size: cover;
@@ -1208,6 +1226,9 @@ p.small-text {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.home .home-hero h2 {
+  text-align: start;
+}
 .home .home-hero .hero-button {
   display: inline-block;
   color: white;
@@ -1218,82 +1239,27 @@ p.small-text {
   border: 0;
   cursor: default;
 }
-.home .home-hero .blue {
-  background: #5076F6;
-  color: #1F2B37;
-  text-align: center;
-  font-size: 152px;
-  font-weight: 400;
-  -webkit-transform: rotate(-2.639deg);
-          transform: rotate(-2.639deg);
-  z-index: 10;
-  line-height: normal;
-  width: 70%;
-  margin-left: 200px;
-}
-.home .home-hero .green {
-  background: #77F1A1;
-  color: #000;
-  text-align: center;
-  font-size: 104px;
-  line-height: 88px;
-  font-weight: 400;
-  -webkit-transform: rotate(-10.44deg);
-          transform: rotate(-10.44deg);
-  position: absolute;
-  right: 0;
-  top: 40px;
-  padding: 10px 0 10px 0;
-  z-index: 100;
-  margin-top: 80px;
-  margin-right: 150px;
-}
-.home .home-hero .white {
-  background: white;
-  color: #1F2B37;
-  text-align: center;
-  font-size: 152px;
-  font-weight: 400;
-  -webkit-transform: rotate(3.283deg);
-          transform: rotate(3.283deg);
-  margin-top: -35px;
-  margin-left: 80px;
-  line-height: normal;
-  z-index: 0;
-  width: 90%;
-}
-@media (max-width: 1400px) {
-  .home .home-hero .blue {
-    font-size: 100px;
-  }
-  .home .home-hero .green {
-    font-size: 65px;
-    margin-top: 30px;
-  }
-  .home .home-hero .white {
-    font-size: 100px;
-  }
-}
-@media (max-width: 1200px) {
-  .home .home-hero .blue {
-    font-size: 80px;
-  }
-  .home .home-hero .green {
-    font-size: 55px;
-    margin-top: 10px;
-    margin-right: 40px;
-  }
-  .home .home-hero .white {
-    font-size: 80px;
-    margin-top: -20px;
-  }
+.home .home-hero h1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 @media (max-width: 992px) {
-  .home .home-hero .button-wrapper {
-    display: none;
+  .home .home-hero {
+    padding: 8rem;
   }
-  .home .home-hero .button-wrapper-mobile {
-    display: block !important;
+}
+@media (max-width: 576px) {
+  .home .home-hero {
+    padding: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  .home .home-hero .btn {
+    font-size: 1.25rem;
+    padding: 0.125rem;
+    width: 100%;
   }
 }
 .home .why-attend-section {
@@ -1311,7 +1277,6 @@ p.small-text {
   width: 100%;
   height: 100%;
   background-color: rgba(255, 140, 100, 0.85);
-  pointer-events: none;
   z-index: 1;
 }
 .home .why-attend-section .container {
@@ -1591,11 +1556,6 @@ p.small-text {
 @media (max-width: 1200px) {
   .home .home-tickets .tickets-call-to-action {
     font-size: 30px;
-  }
-}
-@media (max-width: 992px) {
-  .home .home-tickets .tickets-section-title {
-    font-size: 60px;
   }
 }
 @media (max-width: 768px) {
@@ -1898,12 +1858,6 @@ p.small-text {
 .home .home-sponsors img {
   margin: 0 30px 0 30px;
 }
-@media (max-width: 992px) {
-  .home .home-sponsors .sponsors-title {
-    font-size: 60px;
-    line-height: 66px;
-  }
-}
 @media (max-width: 500px) {
   .home .home-sponsors .mobile-sponsor-images img {
     margin-bottom: 50px;
@@ -2142,11 +2096,6 @@ body {
   background-color: #8711F6;
 }
 
-p {
-  font-size: 24px;
-  font-size: 1.5rem;
-}
-
 a {
   color: #CAFE41;
 }
@@ -2230,19 +2179,36 @@ a {
   border: none;
 }
 
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .btn {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 500px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
 h1, h2 {
   padding: 0;
   color: #CAFE41;
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+  text-align: center;
 }
 
-h2 {
-  font-size: 40px;
-  font-size: 2.5rem;
+@media (max-width: 992px) {
+  h1, h2 {
+    font-size: 1.75rem;
+    text-align: start;
+  }
 }
-
 h1 {
   font-size: 56px;
   font-size: 3.5rem;
@@ -2270,6 +2236,12 @@ li {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  p,
+  li {
+    font-size: 1.25rem;
+  }
+}
 .ptb-10 {
   padding: 80px 160px !important;
   padding: 5rem 10rem !important;
@@ -2319,20 +2291,6 @@ p.small-text {
   justify-self: center;
 }
 
-@media (max-width: 992px) {
-  h2 {
-    font-size: 60px;
-  }
-}
-@media (max-width: 768px) {
-  h2 {
-    font-size: 50px;
-  }
-  p,
-  li {
-    font-size: 18px;
-  }
-}
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;

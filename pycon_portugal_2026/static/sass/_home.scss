@@ -4,6 +4,7 @@
 .home {
 /*#region HomeHero*/
 .home-hero {
+  padding: 10rem;
   background-color: base.$purple;
   background-image: url('../images/home/hero.png');
   background-size: cover;
@@ -21,7 +22,9 @@
       justify-content: center;
     }
   }
-
+  h2 {
+    text-align: start;
+  }
   .hero-button {
     display: inline-block;
     color: white;
@@ -32,84 +35,25 @@
     cursor: default;
   }
 
-  .blue {
-    background: #5076F6;
-    color: #1F2B37;
-    text-align: center;
-    font-size: 152px;
-    font-weight: 400;
-    transform: rotate(-2.639deg);
-    z-index: 10;
-    line-height: normal;
-    width: 70%;
-    margin-left: 200px;
-  }
-
-  .green {
-    background: #77F1A1;
-    color: #000;
-    text-align: center;
-    font-size: 104px;
-    line-height: 88px;
-    font-weight: 400;
-    transform: rotate(-10.44deg);
-    position: absolute;
-    right: 0;
-    top: 40px;
-    padding: 10px 0 10px 0;
-    z-index: 100;
-    margin-top: 80px;
-    margin-right: 150px;
-  }
-
-  .white {
-    background: white;
-    color: #1F2B37;
-    text-align: center;
-    font-size: 152px;
-    font-weight: 400;
-    transform: rotate(3.283deg);
-    margin-top: -35px;
-    margin-left: 80px;
-    line-height: normal;
-    z-index: 0;
-    width: 90%;
-  }
-
-
-  @media(max-width: 1400px) {
-    .blue {
-      font-size: 100px;
-    }
-    .green {
-      font-size: 65px;
-      margin-top: 30px;
-    }
-    .white {
-      font-size: 100px;
+  h1 {
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
     }
   }
-  @media(max-width: 1200px) {
-    .blue {
-      font-size: 80px;
-    }
-    .green {
-      font-size: 55px;
-      margin-top: 10px;
-      margin-right: 40px;
-    }
-    .white {
-      font-size: 80px;
-      margin-top: -20px;
-    }
-  }
-
   @media(max-width: 992px) {
-    .button-wrapper {
-      display: none;
-    }
-    .button-wrapper-mobile {
-      display: block !important;
+    padding: 8rem;
+  }
+  @media(max-width: 576px) {
+    padding: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    .btn {
+      font-size: 1.25rem;
+      padding: 0.125rem;
+      width: 100%;
     }
   }
 }
@@ -127,8 +71,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 140, 100, 0.85); // Laranja com 60% de opacidade
-    pointer-events: none;
+    background-color: rgba(255, 140, 100, 0.85);
     z-index: 1;
   }
 
@@ -136,6 +79,7 @@
     position: relative;
     z-index: 2;
   }
+
 }
 
 /*#endregion HomeHero*/
@@ -423,9 +367,7 @@
     }
   }
   @media(max-width: 992px) {
-    .tickets-section-title {
-      font-size: 60px;
-    }
+
 
   }
   @media(max-width: 768px) {
@@ -739,12 +681,6 @@ a:hover {
     margin: 0 30px 0 30px;
   }
 
-  @media(max-width: 992px) {
-    .sponsors-title {
-      font-size: 60px;
-      line-height: 66px;
-    }
-  }
   @media(max-width: 500px) {
     .mobile-sponsor-images {
       img {

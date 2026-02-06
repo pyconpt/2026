@@ -553,13 +553,20 @@
 /*#endregion Sponsors */
 /*#region HomeFreeTickets */
 .home-free-tickets {
-
+  h2 {
+    padding-top:3rem;
+  }
+  h3 {
+    padding-top:1rem;
+  }
   .free-tickets-width {
     max-width: 475px;
+    margin-bottom: 3rem;
   }
 
   .btn {
     text-align-last: justify;
+    margin-top: 3rem;
   }
     h3 {
       font-size: 2rem;
@@ -582,10 +589,35 @@
   .width-fit-content{
     width: fit-content;
   }
+  @media(max-width: 992px) {
+    .free-tickets-width {
+      margin-bottom: 0rem;
+    }
+    .row {
+      > * { padding-bottom: 1rem !important; }
+      > *:last-child { margin-bottom: 2rem !important; }
+    }
+  }
 
   @media(max-width: 768px) {
     h4 {
       font-size: 36px;
+    }
+  }
+
+  @media(max-width: 576px) {
+    .btn {
+      margin-top: 0rem;    
+    }
+    .free-tickets-width{
+      padding: 0 2rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+      padding-top: 0;
+    }
+    h2 {
+      padding: 3rem 3rem 1rem;
     }
   }
 

@@ -1771,12 +1771,24 @@ p.small-text {
   /*#endregion Sponsors */
   /*#region HomeFreeTickets */
 }
+.home .home-free-tickets h2 {
+  padding-top: 48px;
+  padding-top: 3rem;
+}
+.home .home-free-tickets h3 {
+  padding-top: 16px;
+  padding-top: 1rem;
+}
 .home .home-free-tickets .free-tickets-width {
   max-width: 475px;
+  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 .home .home-free-tickets .btn {
   -moz-text-align-last: justify;
        text-align-last: justify;
+  margin-top: 48px;
+  margin-top: 3rem;
 }
 .home .home-free-tickets h3 {
   font-size: 32px;
@@ -1801,9 +1813,35 @@ p.small-text {
   width: -moz-fit-content;
   width: fit-content;
 }
+@media (max-width: 992px) {
+  .home .home-free-tickets .free-tickets-width {
+    margin-bottom: 0rem;
+  }
+  .home .home-free-tickets .row > * {
+    padding-bottom: 1rem !important;
+  }
+  .home .home-free-tickets .row > *:last-child {
+    margin-bottom: 2rem !important;
+  }
+}
 @media (max-width: 768px) {
   .home .home-free-tickets h4 {
     font-size: 36px;
+  }
+}
+@media (max-width: 576px) {
+  .home .home-free-tickets .btn {
+    margin-top: 0rem;
+  }
+  .home .home-free-tickets .free-tickets-width {
+    padding: 0 2rem;
+  }
+  .home .home-free-tickets h3 {
+    font-size: 1.5rem;
+    padding-top: 0;
+  }
+  .home .home-free-tickets h2 {
+    padding: 3rem 3rem 1rem;
   }
 }
 .home {

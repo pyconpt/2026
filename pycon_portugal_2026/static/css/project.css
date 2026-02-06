@@ -1495,18 +1495,15 @@ p.small-text {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.home .home-speakers .carousel-caption {
-  position: static;
-  margin-top: 10px;
-  color: #000;
-}
 .home .home-speakers .carousel-control-prev,
 .home .home-speakers .carousel-control-next {
   width: auto;
   opacity: 1;
 }
 .home .home-speakers .speakers-carousel-controls .carousel-control-prev,
-.home .home-speakers .speakers-carousel-controls .carousel-control-next {
+.home .home-speakers .speakers-carousel-controls .carousel-control-next,
+.home .home-speakers .speakers-carousel-controls .swiper-button-prev,
+.home .home-speakers .speakers-carousel-controls .swiper-button-next {
   position: static;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1522,12 +1519,6 @@ p.small-text {
   border-radius: 999px;
 }
 @media (max-width: 992px) {
-  .home .home-speakers #speakersCarousel {
-    display: none;
-  }
-  .home .home-speakers #speakersCarousel_mobile {
-    display: block !important;
-  }
   .home .home-speakers .carousel-control-prev {
     margin-left: 0;
   }
@@ -1535,37 +1526,10 @@ p.small-text {
     margin-right: 0;
   }
 }
-@media (max-width: 768px) {
-  .home .home-speakers .speakers-title-1 {
-    font-size: 48px;
-    line-height: 48px;
-    padding: 10px 20px 10px 20px;
-  }
-  .home .home-speakers .speakers-title-2 {
-    font-size: 48px;
-    line-height: 48px;
-    padding: 10px 20px 10px 20px;
-    margin-left: -10px;
-  }
-  .home .home-speakers .speaker-name {
-    font-size: 20px;
-  }
-  .home .home-speakers .title-wrapper {
-    margin-top: 100px;
-  }
-}
-@media (max-width: 500px) {
-  .home .home-speakers .speakers-title-1 {
-    font-size: 32px;
-    line-height: 32px;
-    padding: 10px 20px 10px 20px;
-  }
-  .home .home-speakers .speakers-title-2 {
-    font-size: 32px;
-    line-height: 32px;
-    padding: 10px 20px 10px 20px;
-    margin-left: -10px;
-  }
+.home .home-speakers .swiper-slide p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .home {
   /*#endregion Speakers */
@@ -1681,12 +1645,6 @@ p.small-text {
 .home .home-free-tickets .free-tickets-width {
   max-width: 475px;
 }
-.home .home-free-tickets .ticket-card-green {
-  border: 2px solid #CAFE41;
-}
-.home .home-free-tickets .ticket-card-white {
-  border: 2px solid #F9F9F9;
-}
 .home .home-free-tickets .btn {
   -moz-text-align-last: justify;
        text-align-last: justify;
@@ -1714,64 +1672,7 @@ p.small-text {
   width: -moz-fit-content;
   width: fit-content;
 }
-.home .home-free-tickets .tickets-call-to-action a {
-  color: #1F2B37;
-}
-.home .home-free-tickets .tickets-call-to-action {
-  margin-left: -100px;
-  text-align: center;
-  position: absolute;
-  margin-top: -5px;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 50px;
-  -webkit-transform: rotate(2.233deg);
-          transform: rotate(2.233deg);
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  width: 200px;
-  border: 0;
-}
-.home .home-free-tickets .call-to-action-green {
-  background: #CAFE41;
-  -webkit-transition: -webkit-filter 0.3s ease-in-out;
-  transition: -webkit-filter 0.3s ease-in-out;
-  transition: filter 0.3s ease-in-out;
-  transition: filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
-}
-.home .home-free-tickets .call-to-action-green:hover {
-  -webkit-filter: brightness(90%);
-          filter: brightness(90%);
-}
-.home .home-free-tickets .call-to-action-white {
-  background: #F9F9F9;
-  -webkit-transition: -webkit-filter 0.3s ease-in-out;
-  transition: -webkit-filter 0.3s ease-in-out;
-  transition: filter 0.3s ease-in-out;
-  transition: filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
-}
-.home .home-free-tickets .call-to-action-white:hover {
-  -webkit-filter: brightness(90%);
-          filter: brightness(90%);
-}
-.home .home-free-tickets .call-to-action-blue {
-  background: #5076F6;
-  -webkit-transition: -webkit-filter 0.3s ease-in-out;
-  transition: -webkit-filter 0.3s ease-in-out;
-  transition: filter 0.3s ease-in-out;
-  transition: filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
-}
-.home .home-free-tickets .call-to-action-blue:hover {
-  -webkit-filter: brightness(90%);
-          filter: brightness(90%);
-}
 @media (max-width: 768px) {
-  .home .home-free-tickets .tickets-call-to-action {
-    font-size: 24px;
-    line-height: 50px;
-    margin-top: -10px;
-  }
   .home .home-free-tickets h4 {
     font-size: 36px;
   }

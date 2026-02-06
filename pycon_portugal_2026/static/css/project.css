@@ -170,11 +170,6 @@ li {
   }
 }
 
-.ptb-10 {
-  padding: 80px 160px !important;
-  padding: 5rem 10rem !important;
-}
-
 .width-100 {
   width: 100%;
 }
@@ -405,11 +400,6 @@ li {
     font-size: 1.25rem;
   }
 }
-.ptb-10 {
-  padding: 80px 160px !important;
-  padding: 5rem 10rem !important;
-}
-
 .width-100 {
   width: 100%;
 }
@@ -783,11 +773,6 @@ li {
     font-size: 1.25rem;
   }
 }
-.ptb-10 {
-  padding: 80px 160px !important;
-  padding: 5rem 10rem !important;
-}
-
 .width-100 {
   width: 100%;
 }
@@ -1120,11 +1105,6 @@ li {
     font-size: 1.25rem;
   }
 }
-.ptb-10 {
-  padding: 80px 160px !important;
-  padding: 5rem 10rem !important;
-}
-
 .width-100 {
   width: 100%;
 }
@@ -1260,6 +1240,45 @@ p.small-text {
     font-size: 1.25rem;
     padding: 0.125rem;
     width: 100%;
+  }
+}
+.home .home-welcome {
+  padding: 112px 320px;
+  padding: 7rem 20rem;
+}
+.home .home-welcome a {
+  color: #CAFE41 !important;
+  margin-left: 48px;
+  margin-left: 3rem;
+}
+@media (max-width: 450px) {
+  .home .home-welcome a {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1400px) {
+  .home .home-welcome {
+    padding: 7rem 15rem;
+  }
+}
+@media (max-width: 1200px) {
+  .home .home-welcome {
+    padding: 7rem 12rem;
+  }
+}
+@media (max-width: 992px) {
+  .home .home-welcome {
+    padding: 7rem 10rem;
+  }
+}
+@media (max-width: 768px) {
+  .home .home-welcome {
+    padding: 7rem 5rem;
+  }
+}
+@media (max-width: 576px) {
+  .home .home-welcome {
+    padding: 7rem 2rem;
   }
 }
 .home .why-attend-section {
@@ -2242,11 +2261,6 @@ li {
     font-size: 1.25rem;
   }
 }
-.ptb-10 {
-  padding: 80px 160px !important;
-  padding: 5rem 10rem !important;
-}
-
 .width-100 {
   width: 100%;
 }

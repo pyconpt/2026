@@ -128,9 +128,6 @@ a {
   @media(max-width: 576px) {
     font-size: 1.25rem;    
   }
-  @media(max-width: 500px) {
-    font-size: 1rem;    
-  }
 }
 h1, h2 {
   padding: 0;
@@ -151,7 +148,7 @@ h1 {
 h3 {
   padding: 0;
   color: $Green;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 

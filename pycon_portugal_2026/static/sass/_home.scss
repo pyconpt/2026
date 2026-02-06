@@ -262,42 +262,54 @@
 /*#endregion HomeHeroSubsection*/
 /*#region HomeTickets */
 .home-tickets {
-  .tickets-section-title {
-    text-align: center;
-    line-height: 88px;
-    cursor: default;
-  }
 
   .ticket-card {
     max-width: 475px;
     .btn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    a {
-      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        text-decoration: none;
+      }
+      @media(max-width: 992px) {
+        font-size: 1.5rem;
+      }
+    }
+  h3 {
+    @media(max-width: 992px) {
+      font-size: 2rem;
     }
   }
   }
 
   .detail {
+    padding-top: 2rem;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 0;
+    @media(max-width: 992px) {
+      padding-top: 0.25rem;
+    }
   }
 
-    .price {
+  .price {
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    @media(max-width: 992px) {
+      margin-bottom: 0.5rem;
+    }
   }
 
  p {
   font-size: 1.75rem;
+  @media(max-width: 450px) {
+    font-size: 1.5rem;
+  }
  }
 
   a {
@@ -312,63 +324,19 @@
   .ticket-card {
     display: flex; // make column stretch
   }
+
   .ticket-card > div {
     display: flex;           // card wrapper becomes flex container
     flex-direction: column;  // stack content vertically
     flex: 1 1 auto;          // fill available height
     width: 100%;
   }
+
   // Keep the card button anchored to the bottom
   .ticket-card > div button {
     margin-top: auto;
   }
 
-  .tickets-call-to-action {
-    a {
-      color: #1F2B37;
-    }
-
-    position: absolute;
-    left: 24%;
-    top: 87%;
-      text-align: center;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 58px;
-    transform: rotate(2.233deg);
-    flex-shrink: 0;
-    border: 0;
-  }
-
-  .call-to-action-green {
-    background: base.$Green;
-    transition: filter 0.3s ease-in-out;
-  }
-
-  .call-to-action-green:hover {
-    filter: brightness(90%);
-  }
-
-  .call-to-action-white {
-    background: base.$WhiteGray;
-    transition: filter 0.3s ease-in-out;
-  }
-
-  .call-to-action-white:hover {
-
-    filter: brightness(90%);
-  }
-
-  .call-to-action-blue {
-    background: base.$LightBlue;
-    transition: filter 0.3s ease-in-out;
-  }
-
-  .call-to-action-blue:hover {
-
-    filter: brightness(90%);
-  }
     .l-purple-btn {
     background-color: base.$LightPurple;
     color: base.$Green;
@@ -384,52 +352,6 @@
     border-color: base.$purple;
     a {
       color: base.$purple;
-    }
-  }
-  @media(max-width: 1200px) {
-    .tickets-call-to-action {
-      font-size: 30px;
-    }
-  }
-  @media(max-width: 992px) {
-
-
-  }
-  @media(max-width: 768px) {
-    .tickets-call-to-action {
-      left: 31%;
-      font-size: 28px;
-    }
-    .tickets-section-title {
-      font-size: 48px;
-      line-height: 48px;;
-      padding: 10px 60px 10px 60px;
-    }
-    h4 {
-      font-size: 36px;
-    }
-  }
-  @media(max-width: 500px) {
-    .tickets-call-to-action {
-      font-size: 25px;
-      left: 30%;
-    }
-    .tickets-section-title {
-      font-size: 40px;
-      line-height: 40px;;
-      padding: 10px 60px 10px 60px;
-    }
-  }
-  @media(max-width: 400px) {
-    .tickets-call-to-action {
-      left: 28%;
-    }
-  }
-
-  @media(max-width: 375px) {
-    .tickets-call-to-action {
-      left: 27%;
-      font-size: 24px;
     }
   }
 }
@@ -808,27 +730,7 @@ a:hover {
     filter: brightness(90%);
   }
 
-  @media(max-width: 992px) {
-    .free-tickets-section-title-1 {
-      font-size: 60px;
-      line-height: 66px;
-    }
-    .free-tickets-section-title-2 {
-      font-size: 60px;
-      line-height: 66px;
-      margin-left: 200px;
-    }
-
-  }
   @media(max-width: 768px) {
-    .free-tickets-section-title-1 {
-      font-size: 40px;
-      line-height: 44px;
-    }
-    .free-tickets-section-title-2 {
-      font-size: 40px;
-      line-height: 44px;
-    }
     .tickets-call-to-action {
       font-size: 24px;
       line-height: 50px;
@@ -840,24 +742,6 @@ a:hover {
     }
   }
 
-  @media(max-width: 600px) {
-    .free-tickets-section-title-2 {
-      margin-left: 100px;
-    }
-  }
-  @media(max-width: 423px) {
-    .free-tickets-section-title-2 {
-      margin-left: 30px;
-    }
-  }
-  @media(max-width: 400px) {
-    .free-tickets-section-title-1 {
-      margin-left: -10px;
-    }
-    .free-tickets-section-title-2 {
-      font-size: 30px;
-    }
-  }
 }
 
 /*#endregion HomeFreeTickets*/

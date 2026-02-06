@@ -925,19 +925,32 @@ p.small-text {
     background-color: #8711F6;
   }
   .header {
-    /* When the collapsed navbar is shown on small screens, make it occupy the
-       full viewport so the nav feels like an overlay panel. */
+    /* Make collapsed navbar slide in from the left as an overlay panel */
   }
-  .header .navbar-collapse.collapse.show,
-  .header .navbar-collapse.show {
+  .header .navbar-collapse {
     position: fixed;
-    inset: 0; /* top:0; right:0; bottom:0; left:0 */
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    -webkit-transition: -webkit-transform 0.35s ease;
+    transition: -webkit-transform 0.35s ease;
+    transition: transform 0.35s ease;
+    transition: transform 0.35s ease, -webkit-transform 0.35s ease;
     background-color: #8711F6;
     z-index: 1050;
     padding: 4rem 2rem;
     overflow-y: auto;
+    will-change: transform;
+  }
+  .header {
+    /* When opened, slide in to place */
+  }
+  .header .navbar-collapse.show {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   .header {
     /* Ensure nav items stack vertically and occupy available height */
@@ -961,13 +974,10 @@ p.small-text {
     padding-top: 1rem;
   }
   .header {
-    /* Make toggler visible above the overlay */
+    /* Make toggler and brand visible above the overlay */
   }
   .header .navbar-toggler {
     z-index: 1060;
-  }
-  .header {
-    /* Keep the brand/logo visible above the overlay when menu is open */
   }
   .header .navbar-brand {
     position: relative;

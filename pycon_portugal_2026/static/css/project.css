@@ -1373,9 +1373,12 @@ p.small-text {
 }
 .home .home-previous-editions {
   background-image: url("../images/home/previous_editions_filler.png");
-  background-size: 100% 100%;
-  background-position: center top;
+  background-size: cover;
+  background-position: left top;
   background-repeat: no-repeat;
+}
+.home .home-previous-editions p {
+  text-align: center;
 }
 .home .home-previous-editions a:hover {
   color: #CAFE41;
@@ -1388,11 +1391,17 @@ p.small-text {
   gap: 10px;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 80px;
+  padding: 0 5rem;
   margin-bottom: 100px;
 }
 .home .home-previous-editions .editions-grid a {
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  .home .home-previous-editions .editions-grid {
+    padding: 0 3rem;
+  }
 }
 .home .home-previous-editions .grid-item {
   position: relative;
@@ -1415,17 +1424,14 @@ p.small-text {
      object-fit: cover;
   display: block;
 }
-.home .home-previous-editions .grid-item.small {
-  grid-column: span 1;
-}
 @media (max-width: 992px) {
   .home .home-previous-editions .editions-grid {
     grid-template-columns: repeat(1, 1fr);
   }
-  .home .home-previous-editions .grid-item.small {
-    grid-column: span 1;
-    max-width: 326px;
-    margin: 0 auto;
+}
+@media (max-width: 992px) and (max-width: 450px) {
+  .home .home-previous-editions .editions-grid {
+    padding: 0 1.5rem;
   }
 }
 .home .home-previous-editions .edition-caption {
@@ -1441,9 +1447,48 @@ p.small-text {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 16px;
+  padding: 1rem;
 }
 .home .home-previous-editions .edition-caption p {
   margin: 0;
+}
+@media (max-width: 992px) {
+  .home .home-previous-editions .edition-caption p {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  .home .home-previous-editions .edition-caption {
+    padding: 0.5rem;
+  }
+  .home .home-previous-editions .edition-caption .btn {
+    padding: 0 1.5rem;
+    border-width: 0;
+  }
+}
+@media (max-width: 992px) {
+  .home .home-previous-editions h2,
+  .home .home-previous-editions p {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .home .home-previous-editions p {
+    text-align: start;
+    padding: 0 3rem;
+  }
+  .home .home-previous-editions h2 {
+    text-align: start;
+    padding: 1rem 3rem;
+  }
+}
+@media (max-width: 450px) {
+  .home .home-previous-editions p {
+    padding: 0 1.5rem;
+  }
+  .home .home-previous-editions h2 {
+    padding: 1.5rem;
+  }
 }
 .home {
   /*endregion HomePreviousEditions */

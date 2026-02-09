@@ -22,24 +22,26 @@
       <ul class="navbar-nav mb-2 mb-lg-0 mt-4 mt-lg-0 ms-auto">
         {% for menu, menu_dict in site_menu.items %}
           {% if menu == 'Logo' %}
-
+            {# skip logo entry if present in menu data #}
           {% else %}
             {% if menu_dict.dropdown == 'false' %}
               <li class="nav-item mx-2 mx-xl-4">
-                <a class="nav-link "
+                <a class="nav-link"
                    href="{{ menu_dict.href }}"
-                    {% if menu_dict.blanktarget %}target="_blank"{% endif %}
-                > {{ menu }} </a>
+                   {% if menu_dict.blanktarget %}target="_blank"{% endif %}
+                >{{ menu }}</a>
               </li>
             {% else %}
-              <li class="nav-item dropdown mx-2 mx-xl-4">
-                <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown"
-                   role="button"
-                   aria-expanded="false"> {{ menu }} </a>
+                <li class="nav-item dropdown mx-2 mx-xl-4">
+                 {# Desktop: use Bootstrap dropdown toggle (visible on lg and up) #}
+                 <a class="nav-link dropdown-toggle d-none d-lg-inline" href="#" data-bs-toggle="dropdown"
+                   role="button" aria-haspopup="true" aria-expanded="false">{{ menu }}</a>
+                 {# Mobile: use a button toggle we control (visible below lg) #}
+                 <button type="button" class="nav-link dropdown-toggle d-inline d-lg-none mobile-dropdown-toggle"
+                      aria-haspopup="true" aria-expanded="false">{{ menu }}</button>
                 <ul class="dropdown-menu">
                   {% for submenu, submenu_href in menu_dict.submenu.items %}
-                    <li><a class="dropdown-item"
-                           href="{{ submenu_href }}"> {{ submenu }} </a></li>
+                    <li><a class="dropdown-item" href="{{ submenu_href }}">{{ submenu }}</a></li>
                   {% endfor %}
                 </ul>
               </li>
@@ -50,3 +52,56 @@
     </div>
   </div>
 </nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    function isMobile() { return window.matchMedia('(max-width: 992px)').matches; }
+
+    // Handle clicks inside the collapsed navbar (attach to the collapse element)
+    var collapseEl = document.querySelector('.navbar-collapse');
+    if (collapseEl) {
+      collapseEl.addEventListener('click', function(e) {
+        var toggle = e.target.closest('.dropdown-toggle');
+        if (!toggle) return;
+        if (!isMobile()) return;
+        e.preventDefault();
+        e.stopPropagation();
+        var parent = toggle.closest('.nav-item.dropdown');
+        if (!parent) return;
+        var menu = parent.querySelector('.dropdown-menu');
+        var isShown = parent.classList.contains('show');
+
+        // Close other open dropdowns in the collapsed navbar
+        collapseEl.querySelectorAll('.nav-item.dropdown.show').forEach(function(other) {
+          if (other === parent) return;
+          other.classList.remove('show');
+          var om = other.querySelector('.dropdown-menu'); if (om) om.classList.remove('show');
+          var ot = other.querySelector('.dropdown-toggle'); if (ot) ot.setAttribute('aria-expanded', 'false');
+        });
+
+        if (isShown) {
+          parent.classList.remove('show');
+          if (menu) menu.classList.remove('show');
+          toggle.setAttribute('aria-expanded', 'false');
+        } else {
+          parent.classList.add('show');
+          if (menu) menu.classList.add('show');
+          toggle.setAttribute('aria-expanded', 'true');
+        }
+      });
+    }
+
+    // Close dropdowns when clicking outside the navbar while mobile and nav open
+    document.addEventListener('click', function(e) {
+      if (!isMobile()) return;
+      var collapse = document.querySelector('.navbar-collapse');
+      if (!collapse || !collapse.classList.contains('show')) return;
+      if (e.target.closest('.navbar-collapse')) return;
+      document.querySelectorAll('.navbar-collapse .nav-item.dropdown.show').forEach(function(other) {
+        other.classList.remove('show');
+        var om = other.querySelector('.dropdown-menu'); if (om) om.classList.remove('show');
+        var ot = other.querySelector('.dropdown-toggle'); if (ot) ot.setAttribute('aria-expanded', 'false');
+      });
+    });
+  });
+</script>

@@ -27,9 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Close the menu when a nav link is clicked (mobile behaviour)
+    // But ignore our mobile submenu toggles so the collapse stays open
     document.querySelectorAll('.navbar-collapse .nav-link').forEach(function(link) {
         link.addEventListener('click', function() {
             try {
+                // If this is the mobile submenu toggle, don't close the collapse
+                if (link.classList && link.classList.contains('mobile-dropdown-toggle')) return;
                 var bs = bootstrap.Collapse.getInstance(navbarCollapse);
                 if (bs && window.innerWidth < 992) bs.hide();
             } catch (e) {}

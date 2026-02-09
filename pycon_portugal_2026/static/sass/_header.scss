@@ -120,6 +120,15 @@
       font-weight: 400;
       line-height: normal;
       text-decoration: none;
+      background-color: base.$purple;
+      border: none;
+      color: base.$Green;
+      text-transform: uppercase;
+      padding: 0.5rem 1rem;
+    }
+    .nav-link:hover {
+      background-color: base.$Green;
+      color: base.$purple;
     }
 
     @media (max-width: 992px) {

@@ -144,12 +144,24 @@ h3 {
   font-size: 2.5rem;
   font-weight: 400;
 }
+@media (max-width: 992px) {
+  h3 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
 
 h4 {
   padding: 0;
   color: #CAFE41;
   font-size: 36px;
   font-weight: 400;
+}
+@media (max-width: 992px) {
+  h4 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
 }
 
 p,
@@ -376,6 +388,12 @@ h3 {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  h3 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
 h4 {
   padding: 0;
   color: #CAFE41;
@@ -383,6 +401,12 @@ h4 {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  h4 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
 p,
 li {
   color: #FF8C64;
@@ -799,6 +823,12 @@ h3 {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  h3 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
 h4 {
   padding: 0;
   color: #CAFE41;
@@ -806,6 +836,12 @@ h4 {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  h4 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
 p,
 li {
   color: #FF8C64;
@@ -1033,12 +1069,16 @@ p.small-text {
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
-  background-color: #8711F6;
   border: none;
   color: #CAFE41;
   text-transform: uppercase;
   padding: 8px 16px;
   padding: 0.5rem 1rem;
+}
+@media (max-width: 992px) {
+  .header ul .nav-link {
+    background-color: #8711F6;
+  }
 }
 .header ul .nav-link:hover {
   background-color: #CAFE41;
@@ -1202,6 +1242,12 @@ h3 {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  h3 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
 h4 {
   padding: 0;
   color: #CAFE41;
@@ -1209,6 +1255,12 @@ h4 {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  h4 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
 p,
 li {
   color: #FF8C64;
@@ -1923,6 +1975,43 @@ p.small-text {
   margin-bottom: 48px;
   margin-bottom: 3rem;
 }
+.home .home-free-tickets .free-ticket-card {
+  height: 100%;
+}
+.home .home-free-tickets .free-ticket-card .col-content {
+  height: 100%;
+}
+.home .home-free-tickets img {
+  max-width: 64px;
+}
+.home .home-free-tickets .free-ticket-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.home .home-free-tickets .free-ticket-card .col-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.home .home-free-tickets .free-ticket-card .col-content .btn {
+  margin-top: auto;
+}
+.home .home-free-tickets .mb {
+  margin-bottom: 48px;
+  margin-bottom: 3rem;
+}
 .home .home-free-tickets .btn {
   -moz-text-align-last: justify;
        text-align-last: justify;
@@ -1969,8 +2058,8 @@ p.small-text {
   }
 }
 @media (max-width: 576px) {
-  .home .home-free-tickets .btn {
-    margin-top: 0rem;
+  .home .home-free-tickets .mb {
+    margin-bottom: 0.5rem;
   }
   .home .home-free-tickets .free-tickets-width {
     padding: 0 2rem;
@@ -2194,6 +2283,12 @@ h3 {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  h3 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
 h4 {
   padding: 0;
   color: #CAFE41;
@@ -2201,6 +2296,12 @@ h4 {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  h4 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
 p,
 li {
   color: #FF8C64;

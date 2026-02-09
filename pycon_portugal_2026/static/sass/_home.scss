@@ -563,6 +563,34 @@
     max-width: 475px;
     margin-bottom: 3rem;
   }
+  .free-ticket-card {
+    height: 100%;
+    .col-content {
+      height: 100%;
+
+    }
+  }
+  img {
+    max-width: 64px;
+  }
+
+  .free-ticket-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .free-ticket-card .col-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+
+  .free-ticket-card .col-content .btn {
+    margin-top: auto;
+  }
+  .mb {
+    margin-bottom: 3rem;
+  }
 
   .btn {
     text-align-last: justify;
@@ -606,8 +634,8 @@
   }
 
   @media(max-width: 576px) {
-    .btn {
-      margin-top: 0rem;    
+    .mb {
+      margin-bottom: 0.5rem;    
     }
     .free-tickets-width{
       padding: 0 2rem;

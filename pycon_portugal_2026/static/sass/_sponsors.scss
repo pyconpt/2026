@@ -50,3 +50,42 @@ blockquote {
     transform: unset;
   }
 }
+ .home-sponsors{
+    .mobile-sponsor-images {
+      gap: 1rem;
+      padding: 0.5rem;
+      padding-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+
+      > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    .mobile-sponsor-images {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: auto;
+      align-items: center;
+      justify-items: center;
+      gap: 1rem;
+    }
+
+    .mobile-sponsor-images > a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mobile-sponsor-images img {
+      max-width: 80%;
+      height: auto;
+    }
+  }
+}

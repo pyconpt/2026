@@ -9,7 +9,7 @@ layout: simple
       </div>
     </div>
 
-    <div>
+    <!-- <div>
       <div class="col-12 justify-content-center d-flex">
         <h2 class="platinum">Diamond</h2>
       </div>
@@ -18,9 +18,9 @@ layout: simple
           <img src="/static/images/sponsors/evolutio.svg" alt="Evolutio">
         </a>
       </div>
-    </div>
+    </div> -->
 
-    <div>
+    <!-- <div>
       <div class="col-12 justify-content-center d-flex">
         <h2 class="platinum">Silver</h2>
       </div>
@@ -29,7 +29,7 @@ layout: simple
           <img src="/static/images/sponsors/evolutio.svg" alt="Evolutio">
         </a>
       </div>
-    </div>
+    </div> -->
 
     <div>
       <div class="col-12 justify-content-center d-flex">

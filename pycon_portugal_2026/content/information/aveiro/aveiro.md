@@ -77,16 +77,7 @@ Located next to the Ria de Aveiro, a unique coastal lagoon of high ecological an
 ![aveiro_7](/static/images/aveiro/aveiro_7.jpeg)
 
 </div>
-<div markdown="1" class="swiper-slide">
 
-![aveiro_8](/static/images/aveiro/aveiro_8.jpeg)
-
-</div>
-<div markdown="1" class="swiper-slide">
-
-![aveiro_9](/static/images/aveiro/aveiro_9.jpeg)
-
-</div>
 <div markdown="1" class="swiper-slide">
 
 ![aveiro_10](/static/images/aveiro/aveiro_10.jpeg)
@@ -168,7 +159,22 @@ Aveiro is easy to navigate:
 <br>
 
 ## Food & Drink
-[Photos 008 - 010]
+
+<div markdown="1" class="swiper">
+
+<div markdown="1" class="col-12 swiper-wrapper">
+<div markdown="1" class="swiper-slide p-1">
+
+![aveiro_8](/static/images/aveiro/aveiro_8.jpeg)
+
+</div>
+<div markdown="1" class="swiper-slide p-1">
+
+![aveiro_9](/static/images/aveiro/aveiro_9.jpeg)
+
+</div>
+</div>
+</div>
 
 Aveiro is renowned for its cuisine:
 

@@ -3,11 +3,11 @@ layout: simple
 <div class="container home-sponsors mt-5">
   <div class="row">
 
-    <!-- <div>
+    <div>
       <div class="col-12 justify-content-center d-flex">
         <h1>SPONSORS</h1>
       </div>
-    </div> -->
+    </div>
 
     <!-- <div>
       <div class="col-12 justify-content-center d-flex">
@@ -31,7 +31,7 @@ layout: simple
       </div>
     </div> -->
 
-    <!-- <div>
+    <div>
       <div class="col-12 justify-content-center d-flex">
         <h2 class="grants">GRANTS</h2>
       </div>
@@ -49,7 +49,7 @@ layout: simple
           <img src="/static/images/sponsors/uporto.png" alt="University of Porto" height="40">
         </a>
       </div>
-    </div> -->
+    </div>
 <!---
     <div>
       <div class="col-12 justify-content-center d-flex">
@@ -78,7 +78,7 @@ layout: simple
 --->
     <div>
       <div class="col-12 justify-content-center d-flex">
-        <h1 class="organizer">ORGANIZER</h1>
+        <h2 class="organizer">ORGANIZER</h2>
       </div>
       <div class="d-flex justify-content-center mobile-sponsor-images mb-5">
         <a href="https://www.evolutio.pt/" target="_blank">

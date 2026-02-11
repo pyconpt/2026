@@ -44,4 +44,4 @@ With our limited funds, we can't promise you will receive a grant, but if you're
 [//]: # (</div>)
 If you have questions, you can write to [2026@pycon.pt](mailto:2026@pycon.pt).
 
-**The application window closes on April 15th! Apply [here](https://forms.gle/dF3Zu1vvwaaT2PbMA){:target="\_blank"}!**
+**The application window closes on April 30th! Apply [here](https://docs.google.com/forms/d/e/1FAIpQLSeCKxJo9AhfrdFpBiskHZHycoJgSLWJb4bP2fnhVEhnrVPhPQ/viewform){:target="\_blank"}!**

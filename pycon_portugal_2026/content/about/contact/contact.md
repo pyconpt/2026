@@ -24,27 +24,8 @@ If you are a sponsor and wish to offer a company gift / voucher code to the atte
 [//]: # ()
 [//]: # (* Logo &#40;SVG&#41;)
 
-[//]: # (    * [Aqua]&#40;/static/images/logo/logo-pycon2023-aqua.svg&#41;{:target="_blank" download="logo-aqua.svg"})
-
-[//]: # (    * [Black]&#40;/static/images/logo/logo-pycon2023-black.svg&#41;{:target="_blank" download="logo-black.svg"})
-
-[//]: # (    * [Blue]&#40;/static/images/logo/logo-pycon2023-blue.svg&#41;{:target="_blank" download="logo-blue.svg"})
-
-[//]: # (    * [White]&#40;/static/images/logo/logo-pycon2023-white.svg&#41;{:target="_blank" download="logo-white.svg"})
-
-[//]: # (    * [Yellow]&#40;/static/images/logo/logo-pycon2023-yellow.svg&#41;{:target="_blank" download="logo-yellow.svg"})
-
 [//]: # (* Logo &#40;PNG&#41;)
 
-[//]: # (    * [Aqua]&#40;/static/images/logo/logo-pycon2023-aqua.png&#41;{:target="_blank" download="logo-aqua.png"})
-
-[//]: # (    * [Black]&#40;/static/images/logo/logo-pycon2023-black.png&#41;{:target="_blank" download="logo-black.png"})
-
-[//]: # (    * [Blue]&#40;/static/images/logo/logo-pycon2023-blue.png&#41;{:target="_blank" download="logo-blue.png"})
-
-[//]: # (    * [White]&#40;/static/images/logo/logo-pycon2023-white.png&#41;{:target="_blank" download="logo-white.png"})
-
-[//]: # (    * [Yellow]&#40;/static/images/logo/logo-pycon2023-yellow.png&#41;{:target="_blank" download="logo-yellow.png"})
 
 [//]: # (* [Background 1]&#40;/static/images/background/bg-pycon.svg&#41;{:target="_blank" download="background1.svg"} &#40;SVG&#41;)
 

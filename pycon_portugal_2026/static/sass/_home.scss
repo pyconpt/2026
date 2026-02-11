@@ -514,12 +514,12 @@
     object-fit: contain;
   }
 
-  @media(max-width: 992px) {
-    padding: 2rem;
-    h2 {
-      text-align: start;
-    }
-  }
+  // @media(max-width: 992px) {
+  //   padding: 2rem;
+  //   h2 {
+  //     text-align: start;
+  //   }
+  // }
 
   @media (max-width: 768px) {
     padding: 1rem;

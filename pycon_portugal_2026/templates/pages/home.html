@@ -121,12 +121,12 @@
         </div>
     </div>
 </div> {% endcomment %}
-{% comment %} <div class="container-fluid home-important-dates position-relative">
+<div class="container-fluid home-important-dates position-relative">
     <img src="{% static "images/home/filler.png" %}" alt="Filler">
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-12 col-lg-2 pb-4 date-border top-padding top-padding-mobile">
-                <h4 class="green-text">January</h4>
+                <h4 class="green-text">February</h4>
             </div>
             <div class="col-12 col-lg-10 d-block pb-4 top-padding">
                 <a href="/talks/cfp" class="important-date-link">
@@ -145,7 +145,7 @@
                 </a>
             </div>
             <div class="col-12 col-lg-2 pb-4 date-border">
-                <h4 class="green-text">March</h4>
+                <h4 class="green-text">April</h4>
             </div>
             <div class="col-12 col-lg-10 d-block pb-4">
                 <a href="/information/grants" class="important-date-link">
@@ -153,19 +153,23 @@
                         1st Grants Applications Opening
                     </p>
                 </a>
+                <a href="/information/grants" class="important-date-link">
+                    <p style="margin-bottom: 0!important">
+                        30th Grants Application Deadline</p>
+                </a>
                 <a href="/talks/cfp" class="important-date-link">
                     <p>
-                        31st Call for Participation Deadline
+                        30th Call for Participation Deadline
                     </p>
                 </a>
             </div>
             <div class="col-12 col-lg-2 pb-4 date-border">
-                <h4 class="green-text">April</h4>
+                <h4 class="green-text">May</h4>
             </div>
             <div class="col-12 col-lg-10 d-block pb-4">
                 <a href="/talks/selection_process" class="important-date-link">
                     <p style="margin-bottom: 0!important">
-                        1st Content Review & Selection Kickoff
+                        2nd Content Review & Selection Kickoff
                     </p>
                 </a>
                 <a href="/talks/schedule" class="important-date-link">
@@ -173,27 +177,18 @@
                         15th Talks Publication
                     </p>
                 </a>
-                <a href="/information/grants" class="important-date-link">
-                    <p style="margin-bottom: 0!important">
-                        15th Grants Application Deadline</p>
-                </a>
                 <a href="/talks/schedule" class="important-date-link">
                     <p style="margin-bottom: 0!important">
-                        30th Schedule Publication</p>
+                        15th Schedule Publication</p>
                 </a>
                 <a href="https://pretix.evolutio.pt/evolutio/pyconpt2026/" class="important-date-link">
-                    <p>
-                        30th Early Bird Ticket Sales Closes
+                    <p style="margin-bottom: 0!important">
+                        31st Early Bird Ticket Sales Closing
                     </p>
                 </a>
-            </div>
-            <div class="col-12 col-lg-2 pb-4 date-border">
-                <h4>May</h4>
-            </div>
-            <div class="col-12 col-lg-10 d-block pb-4">
                 <a href="/information/childcare" class="important-date-link">
-                    <p style="margin-bottom: 0!important">
-                        1st Childcare Applications Opening
+                    <p>
+                        31st Childcare Applications Opening
                     </p>
                 </a>
             </div>
@@ -203,28 +198,33 @@
             <div class="col-12 col-lg-10 d-block pb-4">
                 <a href="/information/childcare" class="important-date-link">
                     <p style="margin-bottom: 0!important">
-                        30th Childcare Applications Deadline
+                        1st Childcare Applications Deadline
                     </p>
-                </a>
-                <a href="/information/t-shirts" class="important-date-link">
-                    <p style="margin-bottom: 0!important">
-                        30th T-Shirts Sales Deadline (for
-                        deliveries at the conference)</p>
                 </a>
             </div>
             <div class="col-12 col-lg-2 pb-4 date-border">
                 <h4>July</h4>
             </div>
+            <div class="col-12 col-lg-10 d-block pb-4">
+                <a href="/information/t-shirts" class="important-date-link">
+                    <p style="margin-bottom: 0!important">
+                        31st T-Shirts Sales Deadline (for
+                        deliveries at the conference)</p>
+                </a>
+            </div>
+            <div class="col-12 col-lg-2 pb-4 date-border">
+                <h4>September</h4>
+            </div>
             <div class="col-12 col-lg-10 d-block bottom-padding">
                 <p style="margin-bottom: 0!important">
-                    24th Main Conference
+                    3rd and 4th Main Conference
                 </p>
                 <p style="margin-bottom: 0!important">
-                    26th Workshops</p>
+                    5th Workshops</p>
             </div>
         </div>
     </div>
-</div> {% endcomment %}
+</div>
 {% comment %} <div class="bg-white">
     <div class="container home-speakers pt-5 pb-5">
         <h2 class="purple-text  p-3">On Stage: Our Speakers</h2>
@@ -470,9 +470,9 @@
         <div class="row">
             <div>
                 <div class="col-12 orange-text">
-                    <h2>ABig Shout-Out to Our Sponsors</h2>
+                    <h2>A Big Shout-Out to Our Sponsors</h2>
                 </div>
-            </div>
+            </div> 
             {% comment %} <div>
                 <div class="col-12 purple-text">
                     <h3>Diamond</h3>
@@ -482,7 +482,7 @@
                             src="{% static 'images/sponsors/evolutio.svg' %}" alt="Evolutio"></a>
                 </div>
             </div> {% endcomment %}
-            <div>
+            {% comment %} <div> {% endcomment %}
                 {% comment %} <div class="col-12 purple-text">
                     <h3>Silver</h3>
                 </div>
@@ -496,8 +496,8 @@
                     <a href="https://www.evolutio.pt/" target="_blank"><img
                             src="{% static 'images/sponsors/evolutio.svg' %}" alt="Evolutio"></a>
                 </div> {% endcomment %}
-            </div>
-            <div>
+            {% comment %} </div> {% endcomment %}
+            {% comment %} <div>
                 <div class="col-12 purple-text">
                     <h3>Grants</h3>
                 </div>
@@ -510,19 +510,20 @@
                     <a href="https://www.djangoproject.com/" target="_blank"><img
                             src="{% static 'images/sponsors/django.svg' %}" alt="Django Software Foundation"></a>
                 </div>
-            </div>
+            </div> {% endcomment %}
             <div>
-                <div class="col-12 purple-text ">
+                <div class="col-12 purple-text justify-content-center d-flex">
                     <h3>Organizer</h3>
                 </div>
-                <div class="d-flex mobile-sponsor-images mb-5">
+                <div class="d-flex mobile-sponsor-images mb-5 justify-content-center">
                     <a href="https://www.evolutio.pt/" target="_blank"><img
                             src="{% static 'images/sponsors/evolutio.svg' %}" alt="Evolutio"></a>
                 </div>
             </div>
         </div>
-        <button class="btn green-btn mb-5">Become a Sponsor <i class="fa-solid fa-arrow-right-long"></i>
-        </button>
+        <div class="d-flex justify-content-center">
+            <a href="/sponsors/sponsorship/" class="btn green-btn mb-5 " target="_blank" rel="noopener noreferrer">Become a Sponsor <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
     </div>
 </div>
 <div class="container-fluid home-free-tickets bg-light-purple">
@@ -541,7 +542,7 @@
                     <p class="mb">
                         CFP open until xx.
                     </p>
-                    <a href="https://pretalx.evolutio.pt/pycon-portugal-2026/" class="btn width-100 l-purple-btn">
+                    <a href="https://pretalx.evolutio.pt/pycon-portugal-2026-2025/cfp" class="btn width-100 l-purple-btn">
                         SUBMIT
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </a>

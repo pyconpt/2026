@@ -8,7 +8,7 @@ layout: simple
 [//]: # (Please check the current Schedule.)
 
 [//]: # ()
-[//]: # (The conference talks & workshops will take place from 9:00 AM to 6:30 PM, September 7, 8, and 9.)
+[//]: # (The conference talks & workshops will take place from 9:00 AM to 6:30 PM, September 3, 4, and 5.)
 
 Follow us on social media for up to date information - see footer below!
 

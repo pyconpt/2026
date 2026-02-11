@@ -6,9 +6,9 @@ def links(request):
             "Talks": {
                 "dropdown": "true",
                 "submenu": {
-                    # "CALL FOR PARTICIPATION": "/talks/cfp/",
+                    "CALL FOR PARTICIPATION": "/talks/cfp/",
                     "SELECTION PROCESS": "/talks/selection_process/",
-                    # "SCHEDULE": "/talks/schedule/",
+                    "SCHEDULE": "/talks/schedule/",
                 },
             },
             "Information": {
@@ -18,7 +18,7 @@ def links(request):
                     "VENUE": "/information/venue/",
                     "GRANTS": "/information/grants/",
                     "HOSPITALITY": "/information/hospitality",
-                    # "PARTY": "/information/party/",
+                    "PARTY": "/information/party/",
                     "T-SHIRTS": "/information/t-shirts",
                     "FAQS": "/information/faqs/",
                 },

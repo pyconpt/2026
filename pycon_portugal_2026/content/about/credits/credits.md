@@ -11,7 +11,6 @@ This list of individuals is still growing. Nonetheless, these are our sincerest 
 * Frederico Rodrigues
 * Gonçalo Sousa
 * Isabella Colombarolli
-* Julius Boakye
 * Luis Vaz
 * Miguel Magalhães
 

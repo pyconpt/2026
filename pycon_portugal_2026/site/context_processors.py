@@ -39,11 +39,11 @@ def links(request):
                     "PRIVACY GUIDE": "/conduct/privacy_guide/",
                 },
             },
-            # "Tickets": {
-            #     "dropdown": "false",
-            #     "href": "https://pretix.evolutio.pt/evolutio/pyconpt2026/",
-            #     "blanktarget": True,
-            # },
+            "Tickets": {
+                "dropdown": "false",
+                "href": "https://pretalx.evolutio.pt/pycon-portugal-2026-2025/cfp",
+                "blanktarget": True,
+            },
             "About": {
                 "dropdown": "true",
                 "submenu": {

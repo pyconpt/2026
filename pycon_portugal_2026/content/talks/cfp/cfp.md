@@ -38,7 +38,7 @@ layout: simple
 [//]: # (If you have any questions, please do not hesitate to contact us at [content@pycon.pt]&#40;mailto:content@pycon.pt&#41;. Don't forget to follow us on X [@PyCon PT]&#40;https://x.com/PyConPT&#41;{:target="\_blank"} for the latest up to date information!)
 
 
-## Call for Participation - Closed
+## Call for Participation
 
 This page contains all information regarding the proposal process for Pycon Portugal - we will update it regularly as new information becomes available.
 
@@ -46,7 +46,7 @@ It's a new year. What better way to start it than submitting your talk or worksh
 
 
 [//]: # "Comment" 
-The **Call for Proposals (CFP)** will open on February 20th and will be open until midnight on April 30th [AoE Time Zone](https://www.timeanddate.com/time/zones/aoe){:target="_blank"}; please check the CFP for your timezone specifics. That's plenty of time, you don't have to leave it to the last minute. If you have any questions, please do not hesitate to contact us at [content@pycon.pt](mailto:content@pycon.pt)
+The **Call for Proposals (CFP)** is [open](https://pretalx.evolutio.pt/pycon-portugal-2026/cfp){:target="_blank"} and will be open until midnight on April 30th [AoE Time Zone](https://www.timeanddate.com/time/zones/aoe){:target="_blank"}; please check the CFP for your timezone specifics. That's plenty of time, you don't have to leave it to the last minute. If you have any questions, please do not hesitate to contact us at [content@pycon.pt](mailto:content@pycon.pt)
 
 If you think you have something great to talk about – submit your idea! If you are unsure, talk it over with somebody, or go to Slack to find previous speakers and participants to discuss your idea with. When in doubt, submit your talk 😉! 
 

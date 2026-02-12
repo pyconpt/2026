@@ -41,7 +41,7 @@ def links(request):
             },
             "Tickets": {
                 "dropdown": "false",
-                "href": "https://pretalx.evolutio.pt/pycon-portugal-2026-2025/cfp",
+                "href": "https://pretix.evolutio.pt/evolutio/pyconpt2026/",
                 "blanktarget": True,
             },
             "About": {

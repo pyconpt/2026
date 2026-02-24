@@ -3,9 +3,18 @@ layout: simple
 ## Venue
 
 The conference will take place in Universidade de Aveiro!<br>
-DETI - Departamento de Electrónica, Telecomunicações e Informática
-Universidade de Aveiro
-3810-193 Aveiro
+
+DEGEIT
+Departamento de Economia, Gestão, Engenharia Industrial e Turismo
+Campus Universitário de Santiago, 
+3810-193 Aveiro,
+Portugal
+
+DETI
+Universidade de Aveiro,
+3810-193 Aveiro,
+Portugal
+
 <br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44314.91621046944!2d-8.679506609636329!3d40.634738154699654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aa4e1bda2b%3A0xd70b976749475485!2sUniversidade%20de%20Aveiro!5e0!3m2!1spt-PT!2spt!4v1770293118379!5m2!1spt-PT!2spt" width="600" height="450" style="border:0; width:100%;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <br>

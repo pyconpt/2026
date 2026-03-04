@@ -4,14 +4,12 @@ layout: simple
 
 The conference will take place in Universidade de Aveiro!<br>
 
-DEGEIT
-Departamento de Economia, Gestão, Engenharia Industrial e Turismo
-Campus Universitário de Santiago, 
-3810-193 Aveiro,
-Portugal
+[//]: # (DEGEIT)
+[//]: # (Departamento de Economia, Gestão, Engenharia Industrial e Turismo)
+<img src="/static/images/sponsors/degeit_pt_vertical_brancos.png" alt="DEGEIT Logo" class="venue-logo">
+<img src="/static/images/sponsors/deti_vertical_branco.png" alt="DETI Logo" class="venue-logo">
 
-DETI
-Universidade de Aveiro,
+Campus Universitário de Santiago, 
 3810-193 Aveiro,
 Portugal
 

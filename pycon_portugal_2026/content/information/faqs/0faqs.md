@@ -3,7 +3,7 @@ layout: simple
 ## FAQs
 These are some frequently asked questions. Kindly contact us for further assistance [here](../../about/contact) if you can't find the answers to your questions in this page.
 
-**👉Do I need a visa to visit Cascais, Portugal?**
+**👉Do I need a visa to visit Aveiro, Portugal?**
 This depends on the country you are traveling from. Some countries don't require a visa to enter Portugal, while others do. You can find out if you need a visa using this [link](https://vistos.mne.gov.pt/en/short-stay-visas-schengen/general-information/who-needs-a-visa/). If your country is listed, then you need a visa. If not, no visa is required.
 
 **👉What are the ticket prices for PyCon Portugal?**
@@ -22,7 +22,7 @@ Hopefully, this doesn't happen. If it does, please email us at [2026@pycon.pt](m
 Yes, there are. Virtual tickets are cheaper as they do not include lunch and coffee breaks. You must purchase a virtual ticket to gain access to the platform and stream the event live. You can get your virtual ticket [here](https://pretix.evolutio.pt/evolutio/pyconpt2026/).
 
 **👉Where is the exact venue for the event?**
-The conference will take place at Nova SBE in Cascais. Learn more about the venue [here](../venue).
+The conference will take place at Universidade de Aveiro. Learn more about the venue [here](../venue).
 
 **👉Will meals be provided during the event?**
 Lunch and coffee breaks are included, but dinners are not provided.

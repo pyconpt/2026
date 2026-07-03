@@ -94,7 +94,7 @@ layout: simple
 
       <div class="d-flex justify-content-center mobile-sponsor-images mb-5">
         <a href="https://www.evolutio.pt/" target="_blank">
-          <img src="/static/images/sponsors/evolutio.svg" alt="Evolutio">
+          <img src="/static/images/sponsors/logo-evolutio-branco.svg" alt="Evolutio">
         </a>
       </div>
     </div>

@@ -77,9 +77,21 @@ layout: simple
     </div>
 --->
     <div>
+
       <div class="col-12 justify-content-center d-flex">
-        <h1 class="organizer">ORGANIZER</h1>
+        <h2 class="organizer">INSTITUTIONAL PARTNER</h2>
       </div>
+
+      <div class="d-flex justify-content-center mobile-sponsor-images mb-5 mt-2">
+        <a href="https://inova-ria.pt/" target="_blank">
+          <img src="/static/images/sponsors/logo-inova-ria-prancheta-02.png" class="w-50" alt="Inova-ria">
+        </a>
+      </div>
+
+      <div class="col-12 justify-content-center d-flex">
+        <h2 class="organizer">ORGANIZER</h2>
+      </div>
+
       <div class="d-flex justify-content-center mobile-sponsor-images mb-5">
         <a href="https://www.evolutio.pt/" target="_blank">
           <img src="/static/images/sponsors/evolutio.svg" alt="Evolutio">

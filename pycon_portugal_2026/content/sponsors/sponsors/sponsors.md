@@ -83,11 +83,11 @@ layout: simple
       </div>
 
       <div class="d-flex justify-content-center mobile-sponsor-images mb-5 mt-2 align-items-center gap-5">
-        <a href="https://inova-ria.pt/" target="_blank" class="w-25">
-          <img src="/static/images/sponsors/logo-inova-ria-prancheta-02.png" alt="Inova-ria" class="w-100">
-        </a>
         <a href="https://www.cm-aveiro.pt/" target="_blank" class="w-25">
           <img src="/static/images/sponsors/logo_cmaveiro_white.png" alt="CM Aveiro" class="w-100">
+        </a>
+        <a href="https://inova-ria.pt/" target="_blank" class="w-25">
+          <img src="/static/images/sponsors/logo-inova-ria-prancheta-02.png" alt="Inova-ria" class="w-100">
         </a>
       </div>
 

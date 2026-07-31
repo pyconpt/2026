@@ -2,9 +2,9 @@ layout: simple
 
 ## Talks and Workshops Schedule
 
-- **Talks** - September 3th & 4th, 2026
+- **Talks** - September 3rd & 4th, 2026
 - **Workshops** - September 5th, 2026
-- **Lightning Talks** - September 3th & 4th, 2026
+- **Lightning Talks** - September 3rd & 4th, 2026
 
 [//]: # "<!-- - [**Sprints**](/information/sprints/) - June 8th-9th -->"
 [//]: #

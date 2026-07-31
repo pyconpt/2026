@@ -61,13 +61,13 @@ If you think you have something great to talk about – submit your idea! If you
 [//]: # (## Schedule ️)
 
 [//]: # ()
-[//]: # (* Talks - September 3th & 4th)
+[//]: # (* Talks - September 3rd & 4th)
 
 [//]: # ()
 [//]: # (* Workshops - September 5th)
 
 [//]: # ()
-[//]: # (* Lightning Talks - September 3th & 4th)
+[//]: # (* Lightning Talks - September 3rd & 4th)
 
 [//]: # ()
 [//]: # (The conference will take place from 9AM to 6PM.)

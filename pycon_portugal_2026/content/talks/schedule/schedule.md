@@ -14,7 +14,7 @@ layout: simple
 [//]: #
 [//]: #
 
-<!-- <a href="https://pretalx.evolutio.pt/pycon-portugal-2026/featured/" target="_blank">View the featured talks on Pretalx</a>
+<a href="https://pretalx.evolutio.pt/pycon-portugal-2026/featured/" target="_blank">View the featured talks on Pretalx</a>
 
  <div id="pretalx-widget-container" style="margin-top: 20px;">
   <script
@@ -72,14 +72,3 @@ style="--pretalx-clr-primary: #36bc5b; --pretalx-clr-background: # --light-green
 }
 
 </style>
-
-<br>
-
-   <!-- <hr class="blue-line"> -->
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>

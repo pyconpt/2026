@@ -70,5 +70,25 @@ style="--pretalx-clr-primary: #36bc5b; --pretalx-clr-background: # --light-green
         font-size: 14px;
     }
 }
-
 </style>
+<script>
+  (function () {
+    var host = document.querySelector("pretalx-schedule");
+    if (!host) return;
+    var timer = setInterval(function () {
+      var root = host.shadowRoot;
+      if (!root) return;
+      clearInterval(timer);
+      if (root.getElementById("fit-fix")) return;
+      var s = document.createElement("style");
+      s.id = "fit-fix";
+      s.textContent =
+        ".pretalx-schedule," +
+        ".c-grid-schedule-wrapper," +
+        ".c-grid-schedule," +
+        ".c-grid-schedule .grid { min-width: 0 !important; max-width: 100% !important; }" +
+        ".settings { width: 100% !important; }";
+      root.appendChild(s);
+    }, 200);
+  })();
+</script>
